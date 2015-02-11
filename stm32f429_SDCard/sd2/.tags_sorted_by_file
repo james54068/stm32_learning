@@ -1,0 +1,1196 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+ARCH_FLAGS	Makefile	/^ARCH_FLAGS=-mlittle-endian -mthumb -mcpu=cortex-m4 \\$/;"	m
+BIN_IMAGE	Makefile	/^BIN_IMAGE=$(PROJECT).bin$/;"	m
+CC	Makefile	/^CC=arm-none-eabi-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g $(ARCH_FLAGS)\\$/;"	m
+CFLAGS_DEFINE	Makefile	/^CFLAGS_DEFINE= \\$/;"	m
+CFLAGS_INCLUDE	Makefile	/^CFLAGS_INCLUDE=-I. \\$/;"	m
+CFLAGS_NEW_LIB_NANO	Makefile	/^CFLAGS_NEW_LIB_NANO= \\$/;"	m
+CFLAGS_OPTIMIZE	Makefile	/^CFLAGS_OPTIMIZE= \\$/;"	m
+CFLAGS_WARNING	Makefile	/^CFLAGS_WARNING= \\$/;"	m
+CMSIS	Makefile	/^CMSIS=..\/Libraries\/CMSIS$/;"	m
+COMMON	Makefile	/^COMMON = ..\/Common$/;"	m
+EXECUTABLE	Makefile	/^EXECUTABLE=$(PROJECT).elf$/;"	m
+GDB	Makefile	/^GDB=arm-none-eabi-gdb$/;"	m
+HEX_IMAGE	Makefile	/^HEX_IMAGE = $(PROJECT).hex$/;"	m
+HOST_CC	Makefile	/^HOST_CC=gcc$/;"	m
+LD	Makefile	/^LD=arm-none-eabi-gcc$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY=arm-none-eabi-objcopy$/;"	m
+OBJS	Makefile	/^OBJS=	.\/system_stm32f4xx.o \\$/;"	m
+PROJECT	Makefile	/^PROJECT=firmware$/;"	m
+ST	Makefile	/^ST=..\/Libraries\/STM32F4xx_StdPeriph_Driver$/;"	m
+STARTUP	Makefile	/^STARTUP=.\/startup_stm32f429_439xx.o$/;"	m
+STM32F429_LIB	Makefile	/^STM32F429_LIB = ..\/STM32F429I-Discovery$/;"	m
+_FPU_PRESENT	Makefile	/^        -D __FPU_PRESENT=1 \\$/;"	m
+CAN1_RX0_IRQHandler	can.c	/^void CAN1_RX0_IRQHandler(void)$/;"	f
+CAN2_RX0_IRQHandler	can.c	/^void CAN2_RX0_IRQHandler(void)$/;"	f
+CANx_Config	can.c	/^void CANx_Config(void)$/;"	f
+CANx_NVIC_Config	can.c	/^void CANx_NVIC_Config(void)$/;"	f
+CANx_Transmit	can.c	/^void CANx_Transmit(void){$/;"	f
+RxMessage	can.c	/^CanRxMsg RxMessage;$/;"	v
+can_buff	can.c	/^char can_buff[100];$/;"	v
+CAN_AF_PORT	can.h	14;"	d
+CAN_CLK	can.h	9;"	d
+CAN_GPIO_CLK	can.h	13;"	d
+CAN_GPIO_PORT	can.h	12;"	d
+CAN_RX_PIN	can.h	10;"	d
+CAN_RX_SOURCE	can.h	15;"	d
+CAN_TX_PIN	can.h	11;"	d
+CAN_TX_SOURCE	can.h	16;"	d
+CANx	can.h	8;"	d
+FILE_CAN_H	can.h	3;"	d
+DrawNeedle	drawing.c	/^void DrawNeedle(uint16_t x,uint16_t y,uint16_t radius,float max,float min,float variable)$/;"	f
+DrawThickCircle	drawing.c	/^void DrawThickCircle(uint32_t x,uint32_t y,uint32_t radius, uint32_t thickness){$/;"	f
+Meter	drawing.c	/^void Meter(uint16_t x,uint16_t y,uint16_t radius,float max,float min)$/;"	f
+__DRAWING_H	drawing.h	2;"	d
+TM_ATTRIBUTES_H	fatfs/attributes.h	32;"	d
+__packed	fatfs/attributes.h	40;"	d
+__weak	fatfs/attributes.h	37;"	d
+TM_DEFINES_H	fatfs/defines.h	29;"	d
+ATA	fatfs/diskio.c	54;"	d	file:
+FATFS_USE_SDIO	fatfs/diskio.c	31;"	d	file:
+FATFS_USE_SDIO	fatfs/diskio.c	37;"	d	file:
+FATFS_USE_USB	fatfs/diskio.c	16;"	d	file:
+TM_FATFS_CUSTOM_FATTIME	fatfs/diskio.c	21;"	d	file:
+USB	fatfs/diskio.c	55;"	d	file:
+disk_initialize	fatfs/diskio.c	/^DSTATUS disk_initialize ($/;"	f
+disk_ioctl	fatfs/diskio.c	/^DRESULT disk_ioctl ($/;"	f
+disk_read	fatfs/diskio.c	/^DRESULT disk_read ($/;"	f
+disk_status	fatfs/diskio.c	/^DSTATUS disk_status ($/;"	f
+disk_write	fatfs/diskio.c	/^DRESULT disk_write ($/;"	f
+get_fattime	fatfs/diskio.c	/^__weak DWORD get_fattime(void) {$/;"	f
+ATA_GET_MODEL	fatfs/diskio.h	71;"	d
+ATA_GET_REV	fatfs/diskio.h	70;"	d
+ATA_GET_SN	fatfs/diskio.h	72;"	d
+CTRL_EJECT	fatfs/diskio.h	59;"	d
+CTRL_ERASE_SECTOR	fatfs/diskio.h	54;"	d
+CTRL_FORMAT	fatfs/diskio.h	60;"	d
+CTRL_LOCK	fatfs/diskio.h	58;"	d
+CTRL_POWER	fatfs/diskio.h	57;"	d
+CTRL_SYNC	fatfs/diskio.h	50;"	d
+CT_BLOCK	fatfs/diskio.h	79;"	d
+CT_MMC	fatfs/diskio.h	75;"	d
+CT_SD1	fatfs/diskio.h	76;"	d
+CT_SD2	fatfs/diskio.h	77;"	d
+CT_SDC	fatfs/diskio.h	78;"	d
+DRESULT	fatfs/diskio.h	/^} DRESULT;$/;"	t	typeref:enum:__anon7
+DSTATUS	fatfs/diskio.h	/^typedef BYTE	DSTATUS;$/;"	t
+FATFS_DEBUG_SEND_USART	fatfs/diskio.h	29;"	d
+GET_BLOCK_SIZE	fatfs/diskio.h	53;"	d
+GET_SECTOR_COUNT	fatfs/diskio.h	51;"	d
+GET_SECTOR_SIZE	fatfs/diskio.h	52;"	d
+MMC_GET_CID	fatfs/diskio.h	65;"	d
+MMC_GET_CSD	fatfs/diskio.h	64;"	d
+MMC_GET_OCR	fatfs/diskio.h	66;"	d
+MMC_GET_SDSTAT	fatfs/diskio.h	67;"	d
+MMC_GET_TYPE	fatfs/diskio.h	63;"	d
+RES_ERROR	fatfs/diskio.h	/^	RES_ERROR,		\/* 1: R\/W Error *\/$/;"	e	enum:__anon7
+RES_NOTRDY	fatfs/diskio.h	/^	RES_NOTRDY,		\/* 3: Not Ready *\/$/;"	e	enum:__anon7
+RES_OK	fatfs/diskio.h	/^	RES_OK = 0,		\/* 0: Successful *\/$/;"	e	enum:__anon7
+RES_PARERR	fatfs/diskio.h	/^	RES_PARERR		\/* 4: Invalid Parameter *\/$/;"	e	enum:__anon7
+RES_WRPRT	fatfs/diskio.h	/^	RES_WRPRT,		\/* 2: Write Protected *\/$/;"	e	enum:__anon7
+STA_NODISK	fatfs/diskio.h	43;"	d
+STA_NOINIT	fatfs/diskio.h	42;"	d
+STA_PROTECT	fatfs/diskio.h	44;"	d
+_DISKIO_DEFINED	fatfs/diskio.h	6;"	d
+_USE_IOCTL	fatfs/diskio.h	9;"	d
+_USE_WRITE	fatfs/diskio.h	8;"	d
+ACMD13	fatfs/drivers/fatfs_sd.c	16;"	d	file:
+ACMD23	fatfs/drivers/fatfs_sd.c	21;"	d	file:
+ACMD41	fatfs/drivers/fatfs_sd.c	11;"	d	file:
+CMD0	fatfs/drivers/fatfs_sd.c	9;"	d	file:
+CMD1	fatfs/drivers/fatfs_sd.c	10;"	d	file:
+CMD10	fatfs/drivers/fatfs_sd.c	14;"	d	file:
+CMD12	fatfs/drivers/fatfs_sd.c	15;"	d	file:
+CMD16	fatfs/drivers/fatfs_sd.c	17;"	d	file:
+CMD17	fatfs/drivers/fatfs_sd.c	18;"	d	file:
+CMD18	fatfs/drivers/fatfs_sd.c	19;"	d	file:
+CMD23	fatfs/drivers/fatfs_sd.c	20;"	d	file:
+CMD24	fatfs/drivers/fatfs_sd.c	22;"	d	file:
+CMD25	fatfs/drivers/fatfs_sd.c	23;"	d	file:
+CMD32	fatfs/drivers/fatfs_sd.c	24;"	d	file:
+CMD33	fatfs/drivers/fatfs_sd.c	25;"	d	file:
+CMD38	fatfs/drivers/fatfs_sd.c	26;"	d	file:
+CMD55	fatfs/drivers/fatfs_sd.c	27;"	d	file:
+CMD58	fatfs/drivers/fatfs_sd.c	28;"	d	file:
+CMD8	fatfs/drivers/fatfs_sd.c	12;"	d	file:
+CMD9	fatfs/drivers/fatfs_sd.c	13;"	d	file:
+TM_FATFS_Detect	fatfs/drivers/fatfs_sd.c	/^uint8_t TM_FATFS_Detect(void) {$/;"	f
+TM_FATFS_InitPins	fatfs/drivers/fatfs_sd.c	/^void TM_FATFS_InitPins(void) {$/;"	f
+TM_FATFS_SD_CardType	fatfs/drivers/fatfs_sd.c	/^static BYTE TM_FATFS_SD_CardType;			\/* Card type flags *\/$/;"	v	file:
+TM_FATFS_SD_Stat	fatfs/drivers/fatfs_sd.c	/^static volatile DSTATUS TM_FATFS_SD_Stat = STA_NOINIT;	\/* Physical drive status *\/$/;"	v	file:
+TM_FATFS_SD_disk_initialize	fatfs/drivers/fatfs_sd.c	/^DSTATUS TM_FATFS_SD_disk_initialize (void) {$/;"	f
+TM_FATFS_SD_disk_ioctl	fatfs/drivers/fatfs_sd.c	/^DRESULT TM_FATFS_SD_disk_ioctl ($/;"	f
+TM_FATFS_SD_disk_read	fatfs/drivers/fatfs_sd.c	/^DRESULT TM_FATFS_SD_disk_read ($/;"	f
+TM_FATFS_SD_disk_status	fatfs/drivers/fatfs_sd.c	/^DSTATUS TM_FATFS_SD_disk_status (void) {$/;"	f
+TM_FATFS_SD_disk_write	fatfs/drivers/fatfs_sd.c	/^DRESULT TM_FATFS_SD_disk_write ($/;"	f
+TM_FATFS_WriteEnabled	fatfs/drivers/fatfs_sd.c	/^uint8_t TM_FATFS_WriteEnabled(void) {$/;"	f
+deselect	fatfs/drivers/fatfs_sd.c	/^static void deselect (void)$/;"	f	file:
+init_spi	fatfs/drivers/fatfs_sd.c	/^static void init_spi (void) {$/;"	f	file:
+rcvr_datablock	fatfs/drivers/fatfs_sd.c	/^static int rcvr_datablock (	\/* 1:OK, 0:Error *\/$/;"	f	file:
+rcvr_spi_multi	fatfs/drivers/fatfs_sd.c	/^static void rcvr_spi_multi ($/;"	f	file:
+select	fatfs/drivers/fatfs_sd.c	/^static int select (void)	\/* 1:OK, 0:Timeout *\/$/;"	f	file:
+send_cmd	fatfs/drivers/fatfs_sd.c	/^static BYTE send_cmd (		\/* Return value: R1 resp (bit7==1:Failed to send) *\/$/;"	f	file:
+wait_ready	fatfs/drivers/fatfs_sd.c	/^static int wait_ready (	\/* 1:Ready, 0:Timeout *\/$/;"	f	file:
+xchg_spi	fatfs/drivers/fatfs_sd.c	/^static BYTE xchg_spi ($/;"	f	file:
+xmit_datablock	fatfs/drivers/fatfs_sd.c	/^static int xmit_datablock (	\/* 1:OK, 0:Failed *\/$/;"	f	file:
+xmit_spi_multi	fatfs/drivers/fatfs_sd.c	/^static void xmit_spi_multi ($/;"	f	file:
+FATFS_CS_HIGH	fatfs/drivers/fatfs_sd.h	59;"	d
+FATFS_CS_LOW	fatfs/drivers/fatfs_sd.h	58;"	d
+FATFS_CS_PIN	fatfs/drivers/fatfs_sd.h	31;"	d
+FATFS_CS_PORT	fatfs/drivers/fatfs_sd.h	30;"	d
+FATFS_CS_RCC	fatfs/drivers/fatfs_sd.h	29;"	d
+FATFS_SPI	fatfs/drivers/fatfs_sd.h	24;"	d
+FATFS_SPI_PINSPACK	fatfs/drivers/fatfs_sd.h	25;"	d
+FATFS_USE_DETECT_PIN	fatfs/drivers/fatfs_sd.h	35;"	d
+FATFS_USE_DETECT_PIN_PIN	fatfs/drivers/fatfs_sd.h	46;"	d
+FATFS_USE_DETECT_PIN_PORT	fatfs/drivers/fatfs_sd.h	45;"	d
+FATFS_USE_DETECT_PIN_RCC	fatfs/drivers/fatfs_sd.h	44;"	d
+FATFS_USE_WRITEPROTECT_PIN	fatfs/drivers/fatfs_sd.h	39;"	d
+FATFS_USE_WRITEPROTECT_PIN_PIN	fatfs/drivers/fatfs_sd.h	54;"	d
+FATFS_USE_WRITEPROTECT_PIN_PORT	fatfs/drivers/fatfs_sd.h	53;"	d
+FATFS_USE_WRITEPROTECT_PIN_RCC	fatfs/drivers/fatfs_sd.h	52;"	d
+_DISKIO_DEFINED_SD	fatfs/drivers/fatfs_sd.h	6;"	d
+_USE_IOCTL	fatfs/drivers/fatfs_sd.h	9;"	d
+_USE_WRITE	fatfs/drivers/fatfs_sd.h	8;"	d
+CID_Tab	fatfs/drivers/fatfs_sd_sdio.c	/^static uint32_t CSD_Tab[4], CID_Tab[4], RCA = 0;$/;"	v	file:
+CSD_Tab	fatfs/drivers/fatfs_sd_sdio.c	/^static uint32_t CSD_Tab[4], CID_Tab[4], RCA = 0;$/;"	v	file:
+CardType	fatfs/drivers/fatfs_sd_sdio.c	/^static uint32_t CardType = SDIO_STD_CAPACITY_SD_CARD_V1_1;$/;"	v	file:
+CmdError	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error CmdError (void)$/;"	f	file:
+CmdResp1Error	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error CmdResp1Error (uint8_t cmd)$/;"	f	file:
+CmdResp2Error	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error CmdResp2Error (void)$/;"	f	file:
+CmdResp3Error	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error CmdResp3Error (void)$/;"	f	file:
+CmdResp6Error	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error CmdResp6Error (uint8_t cmd, uint16_t *prca)$/;"	f	file:
+CmdResp7Error	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error CmdResp7Error (void)$/;"	f	file:
+DMA2_Stream3_IRQHandler	fatfs/drivers/fatfs_sd_sdio.c	/^void DMA2_Stream3_IRQHandler(void) {$/;"	f
+DMA2_Stream6_IRQHandler	fatfs/drivers/fatfs_sd_sdio.c	/^void DMA2_Stream6_IRQHandler(void) {$/;"	f
+DMAEndOfTransfer	fatfs/drivers/fatfs_sd_sdio.c	/^__IO uint32_t TransferEnd = 0, DMAEndOfTransfer = 0;$/;"	v
+FindSCR	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error FindSCR (uint16_t rca, uint32_t *pscr)$/;"	f	file:
+IsCardProgramming	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error IsCardProgramming (uint8_t *pstatus)$/;"	f	file:
+RCA	fatfs/drivers/fatfs_sd_sdio.c	/^static uint32_t CSD_Tab[4], CID_Tab[4], RCA = 0;$/;"	v	file:
+SDCardInfo	fatfs/drivers/fatfs_sd_sdio.c	/^SD_CardInfo SDCardInfo;$/;"	v
+SDEnWideBus	fatfs/drivers/fatfs_sd_sdio.c	/^static SD_Error SDEnWideBus (FunctionalState NewState)$/;"	f	file:
+SDIO_CmdInitStructure	fatfs/drivers/fatfs_sd_sdio.c	/^SDIO_CmdInitTypeDef SDIO_CmdInitStructure;$/;"	v
+SDIO_DataInitStructure	fatfs/drivers/fatfs_sd_sdio.c	/^SDIO_DataInitTypeDef SDIO_DataInitStructure;$/;"	v
+SDIO_IRQHandler	fatfs/drivers/fatfs_sd_sdio.c	/^void SDIO_IRQHandler(void) {$/;"	f
+SDIO_InitStructure	fatfs/drivers/fatfs_sd_sdio.c	/^SDIO_InitTypeDef SDIO_InitStructure;$/;"	v
+SDSTATUS_Tab	fatfs/drivers/fatfs_sd_sdio.c	/^static uint8_t SDSTATUS_Tab[16];$/;"	v	file:
+SD_DeInit	fatfs/drivers/fatfs_sd_sdio.c	/^void SD_DeInit (void)$/;"	f
+SD_Detect	fatfs/drivers/fatfs_sd_sdio.c	/^uint8_t SD_Detect (void)$/;"	f
+SD_EnableWideBusOperation	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_EnableWideBusOperation (uint32_t WideMode)$/;"	f
+SD_Erase	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_Erase (uint64_t startaddr, uint64_t endaddr)$/;"	f
+SD_GetCardInfo	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_GetCardInfo (SD_CardInfo *cardinfo)$/;"	f
+SD_GetCardStatus	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_GetCardStatus (SD_CardStatus *cardstatus)$/;"	f
+SD_GetState	fatfs/drivers/fatfs_sd_sdio.c	/^SDCardState SD_GetState (void)$/;"	f
+SD_GetStatus	fatfs/drivers/fatfs_sd_sdio.c	/^SDTransferState SD_GetStatus (void)$/;"	f
+SD_GetTransferState	fatfs/drivers/fatfs_sd_sdio.c	/^SDTransferState SD_GetTransferState (void)$/;"	f
+SD_HighSpeed	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_HighSpeed (void)$/;"	f
+SD_Init	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_Init (void)$/;"	f
+SD_InitializeCards	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_InitializeCards (void)$/;"	f
+SD_LowLevel_DMA_RxConfig	fatfs/drivers/fatfs_sd_sdio.c	/^void SD_LowLevel_DMA_RxConfig (uint32_t *BufferDST, uint32_t BufferSize)$/;"	f
+SD_LowLevel_DMA_TxConfig	fatfs/drivers/fatfs_sd_sdio.c	/^void SD_LowLevel_DMA_TxConfig (uint32_t *BufferSRC, uint32_t BufferSize) {$/;"	f
+SD_LowLevel_DeInit	fatfs/drivers/fatfs_sd_sdio.c	/^void SD_LowLevel_DeInit (void)$/;"	f
+SD_LowLevel_Init	fatfs/drivers/fatfs_sd_sdio.c	/^void SD_LowLevel_Init (void)$/;"	f
+SD_PowerOFF	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_PowerOFF (void)$/;"	f
+SD_PowerON	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_PowerON (void)$/;"	f
+SD_ProcessDMAIRQ	fatfs/drivers/fatfs_sd_sdio.c	/^void SD_ProcessDMAIRQ (void)$/;"	f
+SD_ProcessIRQSrc	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_ProcessIRQSrc (void)$/;"	f
+SD_ReadBlock	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_ReadBlock (uint8_t *readbuff, uint64_t ReadAddr, uint16_t BlockSize)$/;"	f
+SD_ReadMultiBlocks	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_ReadMultiBlocks (uint8_t *readbuff, uint64_t ReadAddr, uint16_t BlockSize, uint32_t NumberOfBlocks)$/;"	f
+SD_SelectDeselect	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_SelectDeselect (uint64_t addr)$/;"	f
+SD_SendSDStatus	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_SendSDStatus (uint32_t *psdstatus)$/;"	f
+SD_SendStatus	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_SendStatus (uint32_t *pcardstatus)$/;"	f
+SD_StopTransfer	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_StopTransfer (void)$/;"	f
+SD_WaitReadOperation	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_WaitReadOperation (void)$/;"	f
+SD_WaitWriteOperation	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_WaitWriteOperation (void)$/;"	f
+SD_WriteBlock	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_WriteBlock (uint8_t *writebuff, uint64_t WriteAddr, uint16_t BlockSize)$/;"	f
+SD_WriteMultiBlocks	fatfs/drivers/fatfs_sd_sdio.c	/^SD_Error SD_WriteMultiBlocks (uint8_t *writebuff, uint64_t WriteAddr, uint16_t BlockSize, uint32_t NumberOfBlocks)$/;"	f
+StopCondition	fatfs/drivers/fatfs_sd_sdio.c	/^__IO uint32_t StopCondition = 0;$/;"	v
+TM_FATFS_SDIO_WriteEnabled	fatfs/drivers/fatfs_sd_sdio.c	/^uint8_t TM_FATFS_SDIO_WriteEnabled(void) {$/;"	f
+TM_FATFS_SD_SDIO_Stat	fatfs/drivers/fatfs_sd_sdio.c	/^static volatile DSTATUS TM_FATFS_SD_SDIO_Stat = STA_NOINIT;	\/* Physical drive status *\/$/;"	v	file:
+TM_FATFS_SD_SDIO_disk_initialize	fatfs/drivers/fatfs_sd_sdio.c	/^DSTATUS TM_FATFS_SD_SDIO_disk_initialize(void) {$/;"	f
+TM_FATFS_SD_SDIO_disk_ioctl	fatfs/drivers/fatfs_sd_sdio.c	/^DRESULT TM_FATFS_SD_SDIO_disk_ioctl(BYTE cmd, char *buff) {$/;"	f
+TM_FATFS_SD_SDIO_disk_read	fatfs/drivers/fatfs_sd_sdio.c	/^DRESULT TM_FATFS_SD_SDIO_disk_read(BYTE *buff, DWORD sector, UINT count) {$/;"	f
+TM_FATFS_SD_SDIO_disk_status	fatfs/drivers/fatfs_sd_sdio.c	/^DSTATUS TM_FATFS_SD_SDIO_disk_status(void) {$/;"	f
+TM_FATFS_SD_SDIO_disk_write	fatfs/drivers/fatfs_sd_sdio.c	/^DRESULT TM_FATFS_SD_SDIO_disk_write(BYTE *buff, DWORD sector, UINT count) {$/;"	f
+TransferEnd	fatfs/drivers/fatfs_sd_sdio.c	/^__IO uint32_t TransferEnd = 0, DMAEndOfTransfer = 0;$/;"	v
+TransferError	fatfs/drivers/fatfs_sd_sdio.c	/^__IO SD_Error TransferError = SD_OK;$/;"	v
+convert_from_bytes_to_power_of_two	fatfs/drivers/fatfs_sd_sdio.c	/^uint8_t convert_from_bytes_to_power_of_two (uint16_t NumberOfBytes)$/;"	f
+logf	fatfs/drivers/fatfs_sd_sdio.c	233;"	d	file:
+AU_SIZE	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+CID_CRC	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t CID_CRC; \/*!< CID CRC *\/$/;"	m	struct:__anon12
+CSDStruct	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t CSDStruct; \/*!< CSD structure *\/$/;"	m	struct:__anon11
+CSD_CRC	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t CSD_CRC; \/*!< CSD CRC *\/$/;"	m	struct:__anon11
+CardBlockSize	fatfs/drivers/fatfs_sd_sdio.h	/^        uint32_t CardBlockSize; \/*!< Card Block Size *\/$/;"	m	struct:__anon14
+CardCapacity	fatfs/drivers/fatfs_sd_sdio.h	/^        uint64_t CardCapacity; \/*!< Card Capacity *\/$/;"	m	struct:__anon14
+CardComdClasses	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint16_t CardComdClasses; \/*!< Card command classes *\/$/;"	m	struct:__anon11
+CardType	fatfs/drivers/fatfs_sd_sdio.h	/^        uint8_t CardType;$/;"	m	struct:__anon14
+ContentProtectAppli	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t ContentProtectAppli; \/*!< Content protection application *\/$/;"	m	struct:__anon11
+CopyFlag	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t CopyFlag; \/*!< Copy flag (OTP) *\/$/;"	m	struct:__anon11
+DAT_BUS_WIDTH	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+DSRImpl	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DSRImpl; \/*!< DSR implemented *\/$/;"	m	struct:__anon11
+DeviceSize	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint32_t DeviceSize; \/*!< Device Size *\/$/;"	m	struct:__anon11
+DeviceSizeMul	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DeviceSizeMul; \/*!< Device size multiplier *\/$/;"	m	struct:__anon11
+ECC	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t ECC; \/*!< ECC code *\/$/;"	m	struct:__anon11
+ERASE_OFFSET	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+ERASE_SIZE	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+ERASE_TIMEOUT	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+EraseGrMul	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t EraseGrMul; \/*!< Erase group size multiplier *\/$/;"	m	struct:__anon11
+EraseGrSize	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t EraseGrSize; \/*!< Erase group size *\/$/;"	m	struct:__anon11
+FATFS_SDIO_4BIT	fatfs/drivers/fatfs_sd_sdio.h	57;"	d
+FATFS_USE_DETECT_PIN	fatfs/drivers/fatfs_sd_sdio.h	49;"	d
+FATFS_USE_DETECT_PIN_PIN	fatfs/drivers/fatfs_sd_sdio.h	64;"	d
+FATFS_USE_DETECT_PIN_PORT	fatfs/drivers/fatfs_sd_sdio.h	63;"	d
+FATFS_USE_DETECT_PIN_RCC	fatfs/drivers/fatfs_sd_sdio.h	62;"	d
+FATFS_USE_WRITEPROTECT_PIN	fatfs/drivers/fatfs_sd_sdio.h	53;"	d
+FATFS_USE_WRITEPROTECT_PIN_PIN	fatfs/drivers/fatfs_sd_sdio.h	72;"	d
+FATFS_USE_WRITEPROTECT_PIN_PORT	fatfs/drivers/fatfs_sd_sdio.h	71;"	d
+FATFS_USE_WRITEPROTECT_PIN_RCC	fatfs/drivers/fatfs_sd_sdio.h	70;"	d
+FileFormat	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t FileFormat; \/*!< File Format *\/$/;"	m	struct:__anon11
+FileFormatGrouop	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t FileFormatGrouop; \/*!< File format group *\/$/;"	m	struct:__anon11
+IO16_Pin_15	fatfs/drivers/fatfs_sd_sdio.h	332;"	d
+IO16_Pin_ALL_LSB	fatfs/drivers/fatfs_sd_sdio.h	351;"	d
+IO16_Pin_ALL_MSB	fatfs/drivers/fatfs_sd_sdio.h	352;"	d
+IOE16_REG_GPDR_LSB	fatfs/drivers/fatfs_sd_sdio.h	361;"	d
+IOE16_REG_GPDR_MSB	fatfs/drivers/fatfs_sd_sdio.h	362;"	d
+IOE16_REG_GPMR_LSB	fatfs/drivers/fatfs_sd_sdio.h	357;"	d
+IOE16_REG_GPMR_MSB	fatfs/drivers/fatfs_sd_sdio.h	358;"	d
+IOE16_REG_GPPIR_LSB	fatfs/drivers/fatfs_sd_sdio.h	363;"	d
+IOE16_REG_GPPIR_MSB	fatfs/drivers/fatfs_sd_sdio.h	364;"	d
+IOE16_REG_GPSR_LSB	fatfs/drivers/fatfs_sd_sdio.h	359;"	d
+IOE16_REG_GPSR_MSB	fatfs/drivers/fatfs_sd_sdio.h	360;"	d
+ManDeflECC	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t ManDeflECC; \/*!< Manufacturer default ECC *\/$/;"	m	struct:__anon11
+ManufactDate	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint16_t ManufactDate; \/*!< Manufacturing Date *\/$/;"	m	struct:__anon12
+ManufacturerID	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t ManufacturerID; \/*!< ManufacturerID *\/$/;"	m	struct:__anon12
+MaxBusClkFrec	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t MaxBusClkFrec; \/*!< Max. bus clock frequency *\/$/;"	m	struct:__anon11
+MaxRdCurrentVDDMax	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t MaxRdCurrentVDDMax; \/*!< Max. read current @ VDD max *\/$/;"	m	struct:__anon11
+MaxRdCurrentVDDMin	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t MaxRdCurrentVDDMin; \/*!< Max. read current @ VDD min *\/$/;"	m	struct:__anon11
+MaxWrBlockLen	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t MaxWrBlockLen; \/*!< Max. write data block length *\/$/;"	m	struct:__anon11
+MaxWrCurrentVDDMax	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t MaxWrCurrentVDDMax; \/*!< Max. write current @ VDD max *\/$/;"	m	struct:__anon11
+MaxWrCurrentVDDMin	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t MaxWrCurrentVDDMin; \/*!< Max. write current @ VDD min *\/$/;"	m	struct:__anon11
+NSAC	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t NSAC; \/*!< Data read access-time 2 in CLK cycles *\/$/;"	m	struct:__anon11
+OEM_AppliID	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint16_t OEM_AppliID; \/*!< OEM\/Application ID *\/$/;"	m	struct:__anon12
+PERFORMANCE_MOVE	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+PartBlockRead	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t PartBlockRead; \/*!< Partial blocks for read allowed *\/$/;"	m	struct:__anon11
+PermWrProtect	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t PermWrProtect; \/*!< Permanent write protection *\/$/;"	m	struct:__anon11
+ProdName1	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint32_t ProdName1; \/*!< Product Name part1 *\/$/;"	m	struct:__anon12
+ProdName2	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t ProdName2; \/*!< Product Name part2*\/$/;"	m	struct:__anon12
+ProdRev	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t ProdRev; \/*!< Product Revision *\/$/;"	m	struct:__anon12
+ProdSN	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint32_t ProdSN; \/*!< Product Serial Number *\/$/;"	m	struct:__anon12
+RCA	fatfs/drivers/fatfs_sd_sdio.h	/^        uint16_t RCA;$/;"	m	struct:__anon14
+RdBlockLen	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t RdBlockLen; \/*!< Max. read data block length *\/$/;"	m	struct:__anon11
+RdBlockMisalign	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t RdBlockMisalign; \/*!< Read block misalignment *\/$/;"	m	struct:__anon11
+Reserved1	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t Reserved1; \/*!< Reserved *\/$/;"	m	struct:__anon11
+Reserved1	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t Reserved1; \/*!< Reserved1 *\/$/;"	m	struct:__anon12
+Reserved2	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t Reserved2; \/*!< Reserved *\/$/;"	m	struct:__anon11
+Reserved2	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t Reserved2; \/*!< always 1 *\/$/;"	m	struct:__anon12
+Reserved3	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t Reserved3; \/*!< Reserded *\/$/;"	m	struct:__anon11
+Reserved4	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t Reserved4; \/*!< always 1*\/$/;"	m	struct:__anon11
+SDCardState	fatfs/drivers/fatfs_sd_sdio.h	/^} SDCardState;$/;"	t	typeref:enum:__anon10
+SDIO_CMD0TIMEOUT	fatfs/drivers/fatfs_sd_sdio.h	415;"	d
+SDIO_FIFO_ADDRESS	fatfs/drivers/fatfs_sd_sdio.h	369;"	d
+SDIO_HIGH_CAPACITY_MMC_CARD	fatfs/drivers/fatfs_sd_sdio.h	349;"	d
+SDIO_HIGH_CAPACITY_SD_CARD	fatfs/drivers/fatfs_sd_sdio.h	344;"	d
+SDIO_HIGH_SPEED_MULTIMEDIA_CARD	fatfs/drivers/fatfs_sd_sdio.h	347;"	d
+SDIO_INIT_CLK_DIV	fatfs/drivers/fatfs_sd_sdio.h	374;"	d
+SDIO_MULTIMEDIA_CARD	fatfs/drivers/fatfs_sd_sdio.h	345;"	d
+SDIO_SECURE_DIGITAL_IO_CARD	fatfs/drivers/fatfs_sd_sdio.h	346;"	d
+SDIO_SECURE_DIGITAL_IO_COMBO_CARD	fatfs/drivers/fatfs_sd_sdio.h	348;"	d
+SDIO_SEND_IF_COND	fatfs/drivers/fatfs_sd_sdio.h	481;"	d
+SDIO_STATIC_FLAGS	fatfs/drivers/fatfs_sd_sdio.h	414;"	d
+SDIO_STD_CAPACITY_SD_CARD_V1_1	fatfs/drivers/fatfs_sd_sdio.h	342;"	d
+SDIO_STD_CAPACITY_SD_CARD_V2_0	fatfs/drivers/fatfs_sd_sdio.h	343;"	d
+SDIO_TRANSFER_CLK_DIV	fatfs/drivers/fatfs_sd_sdio.h	380;"	d
+SDTransferState	fatfs/drivers/fatfs_sd_sdio.h	/^} SDTransferState;$/;"	t	typeref:enum:__anon9
+SD_0TO7BITS	fatfs/drivers/fatfs_sd_sdio.h	461;"	d
+SD_16TO23BITS	fatfs/drivers/fatfs_sd_sdio.h	463;"	d
+SD_24TO31BITS	fatfs/drivers/fatfs_sd_sdio.h	464;"	d
+SD_8TO15BITS	fatfs/drivers/fatfs_sd_sdio.h	462;"	d
+SD_ADDR_MISALIGNED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_ADDR_MISALIGNED = (9), \/*!< Misaligned address *\/$/;"	e	enum:__anon8
+SD_ADDR_OUT_OF_RANGE	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_ADDR_OUT_OF_RANGE = (28),$/;"	e	enum:__anon8
+SD_AKE_SEQ_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_AKE_SEQ_ERROR = (26), \/*!< Error in sequence of authentication. *\/$/;"	e	enum:__anon8
+SD_ALLZERO	fatfs/drivers/fatfs_sd_sdio.h	454;"	d
+SD_BAD_ERASE_PARAM	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_BAD_ERASE_PARAM = (12), \/*!< An Invalid selection for erase groups *\/$/;"	e	enum:__anon8
+SD_BLOCK_LEN_ERR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_BLOCK_LEN_ERR = (10), \/*!< Transferred block length is not allowed for the card or the number of transferred bytes does not match the block length *\/$/;"	e	enum:__anon8
+SD_CARD_DISCONNECTED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_DISCONNECTED = ((uint32_t) 0x00000008),$/;"	e	enum:__anon10
+SD_CARD_ECC_DISABLED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_ECC_DISABLED = (24), \/*!< Command has been executed without using internal ECC *\/$/;"	e	enum:__anon8
+SD_CARD_ECC_FAILED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_ECC_FAILED = (17), \/*!< Card internal ECC was applied but failed to correct the data *\/$/;"	e	enum:__anon8
+SD_CARD_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_ERROR = ((uint32_t) 0x000000FF)$/;"	e	enum:__anon10
+SD_CARD_IDENTIFICATION	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_IDENTIFICATION = ((uint32_t) 0x00000002),$/;"	e	enum:__anon10
+SD_CARD_LOCKED	fatfs/drivers/fatfs_sd_sdio.h	458;"	d
+SD_CARD_PROGRAMMING	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_PROGRAMMING = ((uint32_t) 0x00000007),$/;"	e	enum:__anon10
+SD_CARD_READY	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_READY = ((uint32_t) 0x00000001),$/;"	e	enum:__anon10
+SD_CARD_RECEIVING	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_RECEIVING = ((uint32_t) 0x00000006),$/;"	e	enum:__anon10
+SD_CARD_SENDING	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_SENDING = ((uint32_t) 0x00000005),$/;"	e	enum:__anon10
+SD_CARD_STANDBY	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_STANDBY = ((uint32_t) 0x00000003),$/;"	e	enum:__anon10
+SD_CARD_TRANSFER	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CARD_TRANSFER = ((uint32_t) 0x00000004),$/;"	e	enum:__anon10
+SD_CARD_TYPE	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+SD_CCCC_ERASE	fatfs/drivers/fatfs_sd_sdio.h	475;"	d
+SD_CCCC_LOCK_UNLOCK	fatfs/drivers/fatfs_sd_sdio.h	473;"	d
+SD_CCCC_WRITE_PROT	fatfs/drivers/fatfs_sd_sdio.h	474;"	d
+SD_CC_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CC_ERROR = (18), \/*!< Internal card controller error *\/$/;"	e	enum:__anon8
+SD_CHECK_PATTERN	fatfs/drivers/fatfs_sd_sdio.h	451;"	d
+SD_CID	fatfs/drivers/fatfs_sd_sdio.h	/^} SD_CID;$/;"	t	typeref:struct:__anon12
+SD_CID_CSD_OVERWRITE	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CID_CSD_OVERWRITE = (22), \/*!< CID\/CSD overwrite error *\/$/;"	e	enum:__anon8
+SD_CMD_ALL_SEND_CID	fatfs/drivers/fatfs_sd_sdio.h	245;"	d
+SD_CMD_APP_CMD	fatfs/drivers/fatfs_sd_sdio.h	286;"	d
+SD_CMD_APP_SD_SET_BUSWIDTH	fatfs/drivers/fatfs_sd_sdio.h	294;"	d
+SD_CMD_CLR_WRITE_PROT	fatfs/drivers/fatfs_sd_sdio.h	270;"	d
+SD_CMD_CRC_FAIL	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CMD_CRC_FAIL = (1), \/*!< Command response received (but CRC check failed) *\/$/;"	e	enum:__anon8
+SD_CMD_ERASE	fatfs/drivers/fatfs_sd_sdio.h	282;"	d
+SD_CMD_ERASE_GRP_END	fatfs/drivers/fatfs_sd_sdio.h	279;"	d
+SD_CMD_ERASE_GRP_START	fatfs/drivers/fatfs_sd_sdio.h	276;"	d
+SD_CMD_FAST_IO	fatfs/drivers/fatfs_sd_sdio.h	283;"	d
+SD_CMD_GEN_CMD	fatfs/drivers/fatfs_sd_sdio.h	287;"	d
+SD_CMD_GO_IDLE_STATE	fatfs/drivers/fatfs_sd_sdio.h	243;"	d
+SD_CMD_GO_INACTIVE_STATE	fatfs/drivers/fatfs_sd_sdio.h	258;"	d
+SD_CMD_GO_IRQ_STATE	fatfs/drivers/fatfs_sd_sdio.h	284;"	d
+SD_CMD_HS_BUSTEST_READ	fatfs/drivers/fatfs_sd_sdio.h	257;"	d
+SD_CMD_HS_BUSTEST_WRITE	fatfs/drivers/fatfs_sd_sdio.h	262;"	d
+SD_CMD_HS_SEND_EXT_CSD	fatfs/drivers/fatfs_sd_sdio.h	251;"	d
+SD_CMD_HS_SWITCH	fatfs/drivers/fatfs_sd_sdio.h	249;"	d
+SD_CMD_LOCK_UNLOCK	fatfs/drivers/fatfs_sd_sdio.h	285;"	d
+SD_CMD_NO_CMD	fatfs/drivers/fatfs_sd_sdio.h	288;"	d
+SD_CMD_OUT_OF_RANGE	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CMD_OUT_OF_RANGE = (8), \/*!< CMD's argument was out of range.*\/$/;"	e	enum:__anon8
+SD_CMD_PROG_CID	fatfs/drivers/fatfs_sd_sdio.h	267;"	d
+SD_CMD_PROG_CSD	fatfs/drivers/fatfs_sd_sdio.h	268;"	d
+SD_CMD_READ_DAT_UNTIL_STOP	fatfs/drivers/fatfs_sd_sdio.h	254;"	d
+SD_CMD_READ_MULT_BLOCK	fatfs/drivers/fatfs_sd_sdio.h	261;"	d
+SD_CMD_READ_SINGLE_BLOCK	fatfs/drivers/fatfs_sd_sdio.h	260;"	d
+SD_CMD_RSP_TIMEOUT	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CMD_RSP_TIMEOUT = (3), \/*!< Command response timeout *\/$/;"	e	enum:__anon8
+SD_CMD_SDIO_RW_DIRECT	fatfs/drivers/fatfs_sd_sdio.h	300;"	d
+SD_CMD_SDIO_RW_EXTENDED	fatfs/drivers/fatfs_sd_sdio.h	301;"	d
+SD_CMD_SDIO_SEN_OP_COND	fatfs/drivers/fatfs_sd_sdio.h	248;"	d
+SD_CMD_SD_APP_CHANGE_SECURE_AREA	fatfs/drivers/fatfs_sd_sdio.h	316;"	d
+SD_CMD_SD_APP_GET_CER_RES1	fatfs/drivers/fatfs_sd_sdio.h	312;"	d
+SD_CMD_SD_APP_GET_CER_RN2	fatfs/drivers/fatfs_sd_sdio.h	310;"	d
+SD_CMD_SD_APP_GET_MID	fatfs/drivers/fatfs_sd_sdio.h	308;"	d
+SD_CMD_SD_APP_GET_MKB	fatfs/drivers/fatfs_sd_sdio.h	307;"	d
+SD_CMD_SD_APP_OP_COND	fatfs/drivers/fatfs_sd_sdio.h	297;"	d
+SD_CMD_SD_APP_SECURE_ERASE	fatfs/drivers/fatfs_sd_sdio.h	315;"	d
+SD_CMD_SD_APP_SECURE_READ_MULTIPLE_BLOCK	fatfs/drivers/fatfs_sd_sdio.h	313;"	d
+SD_CMD_SD_APP_SECURE_WRITE_MKB	fatfs/drivers/fatfs_sd_sdio.h	317;"	d
+SD_CMD_SD_APP_SECURE_WRITE_MULTIPLE_BLOCK	fatfs/drivers/fatfs_sd_sdio.h	314;"	d
+SD_CMD_SD_APP_SEND_NUM_WRITE_BLOCKS	fatfs/drivers/fatfs_sd_sdio.h	296;"	d
+SD_CMD_SD_APP_SEND_SCR	fatfs/drivers/fatfs_sd_sdio.h	299;"	d
+SD_CMD_SD_APP_SET_CER_RES2	fatfs/drivers/fatfs_sd_sdio.h	311;"	d
+SD_CMD_SD_APP_SET_CER_RN1	fatfs/drivers/fatfs_sd_sdio.h	309;"	d
+SD_CMD_SD_APP_SET_CLR_CARD_DETECT	fatfs/drivers/fatfs_sd_sdio.h	298;"	d
+SD_CMD_SD_APP_STAUS	fatfs/drivers/fatfs_sd_sdio.h	295;"	d
+SD_CMD_SD_ERASE_GRP_END	fatfs/drivers/fatfs_sd_sdio.h	274;"	d
+SD_CMD_SD_ERASE_GRP_START	fatfs/drivers/fatfs_sd_sdio.h	272;"	d
+SD_CMD_SEL_DESEL_CARD	fatfs/drivers/fatfs_sd_sdio.h	250;"	d
+SD_CMD_SEND_CID	fatfs/drivers/fatfs_sd_sdio.h	253;"	d
+SD_CMD_SEND_CSD	fatfs/drivers/fatfs_sd_sdio.h	252;"	d
+SD_CMD_SEND_OP_COND	fatfs/drivers/fatfs_sd_sdio.h	244;"	d
+SD_CMD_SEND_STATUS	fatfs/drivers/fatfs_sd_sdio.h	256;"	d
+SD_CMD_SEND_WRITE_PROT	fatfs/drivers/fatfs_sd_sdio.h	271;"	d
+SD_CMD_SET_BLOCKLEN	fatfs/drivers/fatfs_sd_sdio.h	259;"	d
+SD_CMD_SET_BLOCK_COUNT	fatfs/drivers/fatfs_sd_sdio.h	264;"	d
+SD_CMD_SET_DSR	fatfs/drivers/fatfs_sd_sdio.h	247;"	d
+SD_CMD_SET_REL_ADDR	fatfs/drivers/fatfs_sd_sdio.h	246;"	d
+SD_CMD_SET_WRITE_PROT	fatfs/drivers/fatfs_sd_sdio.h	269;"	d
+SD_CMD_STOP_TRANSMISSION	fatfs/drivers/fatfs_sd_sdio.h	255;"	d
+SD_CMD_WRITE_DAT_UNTIL_STOP	fatfs/drivers/fatfs_sd_sdio.h	263;"	d
+SD_CMD_WRITE_MULT_BLOCK	fatfs/drivers/fatfs_sd_sdio.h	266;"	d
+SD_CMD_WRITE_SINGLE_BLOCK	fatfs/drivers/fatfs_sd_sdio.h	265;"	d
+SD_COM_CRC_FAILED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_COM_CRC_FAILED = (15), \/*!< CRC check of the previous command failed *\/$/;"	e	enum:__anon8
+SD_CSD	fatfs/drivers/fatfs_sd_sdio.h	/^} SD_CSD;$/;"	t	typeref:struct:__anon11
+SD_CardInfo	fatfs/drivers/fatfs_sd_sdio.h	/^} SD_CardInfo;$/;"	t	typeref:struct:__anon14
+SD_CardStatus	fatfs/drivers/fatfs_sd_sdio.h	/^} SD_CardStatus;$/;"	t	typeref:struct:__anon13
+SD_DATATIMEOUT	fatfs/drivers/fatfs_sd_sdio.h	460;"	d
+SD_DATA_CRC_FAIL	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_DATA_CRC_FAIL = (2), \/*!< Data bock sent\/received (CRC check Failed) *\/$/;"	e	enum:__anon8
+SD_DATA_TIMEOUT	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_DATA_TIMEOUT = (4), \/*!< Data time out *\/$/;"	e	enum:__anon8
+SD_DETECT_PIN	fatfs/drivers/fatfs_sd_sdio.h	337;"	d
+SD_DMA_MODE	fatfs/drivers/fatfs_sd_sdio.h	321;"	d
+SD_ERASE_RESET	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_ERASE_RESET = (25), \/*!< Erase sequence was cleared before executing because an out of erase sequence command was received *\/$/;"	e	enum:__anon8
+SD_ERASE_SEQ_ERR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_ERASE_SEQ_ERR = (11), \/*!< An error in the sequence of erase command occurs.*\/$/;"	e	enum:__anon8
+SD_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_ERROR,$/;"	e	enum:__anon8
+SD_Error	fatfs/drivers/fatfs_sd_sdio.h	/^} SD_Error;$/;"	t	typeref:enum:__anon8
+SD_GENERAL_UNKNOWN_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_GENERAL_UNKNOWN_ERROR = (19), \/*!< General or Unknown error *\/$/;"	e	enum:__anon8
+SD_HALFFIFO	fatfs/drivers/fatfs_sd_sdio.h	467;"	d
+SD_HALFFIFOBYTES	fatfs/drivers/fatfs_sd_sdio.h	468;"	d
+SD_HIGH_CAPACITY	fatfs/drivers/fatfs_sd_sdio.h	449;"	d
+SD_ILLEGAL_CMD	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_ILLEGAL_CMD = (16), \/*!< Command is not legal for the card state *\/$/;"	e	enum:__anon8
+SD_INTERNAL_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_INTERNAL_ERROR,$/;"	e	enum:__anon8
+SD_INVALID_PARAMETER	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_INVALID_PARAMETER,$/;"	e	enum:__anon8
+SD_INVALID_VOLTRANGE	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_INVALID_VOLTRANGE = (27),$/;"	e	enum:__anon8
+SD_LOCK_UNLOCK_FAILED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_LOCK_UNLOCK_FAILED = (14), \/*!< Sequence or password error has been detected in unlock command or if there was an attempt to access a locked card *\/$/;"	e	enum:__anon8
+SD_MAX_DATA_LENGTH	fatfs/drivers/fatfs_sd_sdio.h	465;"	d
+SD_MAX_VOLT_TRIAL	fatfs/drivers/fatfs_sd_sdio.h	453;"	d
+SD_NOT_CONFIGURED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_NOT_CONFIGURED,$/;"	e	enum:__anon8
+SD_NOT_PRESENT	fatfs/drivers/fatfs_sd_sdio.h	329;"	d
+SD_OCR_ADDR_MISALIGNED	fatfs/drivers/fatfs_sd_sdio.h	421;"	d
+SD_OCR_ADDR_OUT_OF_RANGE	fatfs/drivers/fatfs_sd_sdio.h	420;"	d
+SD_OCR_AKE_SEQ_ERROR	fatfs/drivers/fatfs_sd_sdio.h	438;"	d
+SD_OCR_BAD_ERASE_PARAM	fatfs/drivers/fatfs_sd_sdio.h	424;"	d
+SD_OCR_BLOCK_LEN_ERR	fatfs/drivers/fatfs_sd_sdio.h	422;"	d
+SD_OCR_CARD_ECC_DISABLED	fatfs/drivers/fatfs_sd_sdio.h	436;"	d
+SD_OCR_CARD_ECC_FAILED	fatfs/drivers/fatfs_sd_sdio.h	429;"	d
+SD_OCR_CC_ERROR	fatfs/drivers/fatfs_sd_sdio.h	430;"	d
+SD_OCR_CID_CSD_OVERWRIETE	fatfs/drivers/fatfs_sd_sdio.h	434;"	d
+SD_OCR_COM_CRC_FAILED	fatfs/drivers/fatfs_sd_sdio.h	427;"	d
+SD_OCR_ERASE_RESET	fatfs/drivers/fatfs_sd_sdio.h	437;"	d
+SD_OCR_ERASE_SEQ_ERR	fatfs/drivers/fatfs_sd_sdio.h	423;"	d
+SD_OCR_ERRORBITS	fatfs/drivers/fatfs_sd_sdio.h	439;"	d
+SD_OCR_GENERAL_UNKNOWN_ERROR	fatfs/drivers/fatfs_sd_sdio.h	431;"	d
+SD_OCR_ILLEGAL_CMD	fatfs/drivers/fatfs_sd_sdio.h	428;"	d
+SD_OCR_LOCK_UNLOCK_FAILED	fatfs/drivers/fatfs_sd_sdio.h	426;"	d
+SD_OCR_STREAM_READ_UNDERRUN	fatfs/drivers/fatfs_sd_sdio.h	432;"	d
+SD_OCR_STREAM_WRITE_OVERRUN	fatfs/drivers/fatfs_sd_sdio.h	433;"	d
+SD_OCR_WP_ERASE_SKIP	fatfs/drivers/fatfs_sd_sdio.h	435;"	d
+SD_OCR_WRITE_PROT_VIOLATION	fatfs/drivers/fatfs_sd_sdio.h	425;"	d
+SD_OK	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_OK = 0$/;"	e	enum:__anon8
+SD_PRESENT	fatfs/drivers/fatfs_sd_sdio.h	328;"	d
+SD_R6_COM_CRC_FAILED	fatfs/drivers/fatfs_sd_sdio.h	446;"	d
+SD_R6_GENERAL_UNKNOWN_ERROR	fatfs/drivers/fatfs_sd_sdio.h	444;"	d
+SD_R6_ILLEGAL_CMD	fatfs/drivers/fatfs_sd_sdio.h	445;"	d
+SD_REQUEST_NOT_APPLICABLE	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_REQUEST_NOT_APPLICABLE,$/;"	e	enum:__anon8
+SD_REQUEST_PENDING	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_REQUEST_PENDING,$/;"	e	enum:__anon8
+SD_RX_OVERRUN	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_RX_OVERRUN = (6), \/*!< Receive FIFO over-run *\/$/;"	e	enum:__anon8
+SD_SDIO_DISABLED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_SDIO_DISABLED = (30),$/;"	e	enum:__anon8
+SD_SDIO_DMA	fatfs/drivers/fatfs_sd_sdio.h	382;"	d
+SD_SDIO_DMA_CHANNEL	fatfs/drivers/fatfs_sd_sdio.h	390;"	d
+SD_SDIO_DMA_CHANNEL	fatfs/drivers/fatfs_sd_sdio.h	400;"	d
+SD_SDIO_DMA_CLK	fatfs/drivers/fatfs_sd_sdio.h	383;"	d
+SD_SDIO_DMA_FLAG_DMEIF	fatfs/drivers/fatfs_sd_sdio.h	392;"	d
+SD_SDIO_DMA_FLAG_DMEIF	fatfs/drivers/fatfs_sd_sdio.h	402;"	d
+SD_SDIO_DMA_FLAG_FEIF	fatfs/drivers/fatfs_sd_sdio.h	391;"	d
+SD_SDIO_DMA_FLAG_FEIF	fatfs/drivers/fatfs_sd_sdio.h	401;"	d
+SD_SDIO_DMA_FLAG_HTIF	fatfs/drivers/fatfs_sd_sdio.h	394;"	d
+SD_SDIO_DMA_FLAG_HTIF	fatfs/drivers/fatfs_sd_sdio.h	404;"	d
+SD_SDIO_DMA_FLAG_TCIF	fatfs/drivers/fatfs_sd_sdio.h	395;"	d
+SD_SDIO_DMA_FLAG_TCIF	fatfs/drivers/fatfs_sd_sdio.h	405;"	d
+SD_SDIO_DMA_FLAG_TEIF	fatfs/drivers/fatfs_sd_sdio.h	393;"	d
+SD_SDIO_DMA_FLAG_TEIF	fatfs/drivers/fatfs_sd_sdio.h	403;"	d
+SD_SDIO_DMA_IRQHANDLER	fatfs/drivers/fatfs_sd_sdio.h	397;"	d
+SD_SDIO_DMA_IRQHANDLER	fatfs/drivers/fatfs_sd_sdio.h	407;"	d
+SD_SDIO_DMA_IRQn	fatfs/drivers/fatfs_sd_sdio.h	396;"	d
+SD_SDIO_DMA_IRQn	fatfs/drivers/fatfs_sd_sdio.h	406;"	d
+SD_SDIO_DMA_STREAM	fatfs/drivers/fatfs_sd_sdio.h	389;"	d
+SD_SDIO_DMA_STREAM	fatfs/drivers/fatfs_sd_sdio.h	399;"	d
+SD_SDIO_DMA_STREAM3	fatfs/drivers/fatfs_sd_sdio.h	385;"	d
+SD_SDIO_FUNCTION_BUSY	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_SDIO_FUNCTION_BUSY = (31),$/;"	e	enum:__anon8
+SD_SDIO_FUNCTION_FAILED	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_SDIO_FUNCTION_FAILED = (32),$/;"	e	enum:__anon8
+SD_SDIO_UNKNOWN_FUNCTION	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_SDIO_UNKNOWN_FUNCTION = (33),$/;"	e	enum:__anon8
+SD_SINGLE_BUS_SUPPORT	fatfs/drivers/fatfs_sd_sdio.h	457;"	d
+SD_START_BIT_ERR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_START_BIT_ERR = (7), \/*!< Start bit not detected on all data signals in widE bus mode *\/$/;"	e	enum:__anon8
+SD_STD_CAPACITY	fatfs/drivers/fatfs_sd_sdio.h	450;"	d
+SD_STREAM_READ_UNDERRUN	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_STREAM_READ_UNDERRUN = (20), \/*!< The card could not sustain data transfer in stream read operation. *\/$/;"	e	enum:__anon8
+SD_STREAM_WRITE_OVERRUN	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_STREAM_WRITE_OVERRUN = (21), \/*!< The card could not sustain data programming in stream mode *\/$/;"	e	enum:__anon8
+SD_SWITCH_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_SWITCH_ERROR = (29),$/;"	e	enum:__anon8
+SD_TRANSFER_BUSY	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_TRANSFER_OK = 0, SD_TRANSFER_BUSY = 1, SD_TRANSFER_ERROR$/;"	e	enum:__anon9
+SD_TRANSFER_ERROR	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_TRANSFER_OK = 0, SD_TRANSFER_BUSY = 1, SD_TRANSFER_ERROR$/;"	e	enum:__anon9
+SD_TRANSFER_OK	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_TRANSFER_OK = 0, SD_TRANSFER_BUSY = 1, SD_TRANSFER_ERROR$/;"	e	enum:__anon9
+SD_TX_UNDERRUN	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_TX_UNDERRUN = (5), \/*!< Transmit FIFO under-run *\/$/;"	e	enum:__anon8
+SD_UNSUPPORTED_FEATURE	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_UNSUPPORTED_FEATURE,$/;"	e	enum:__anon8
+SD_UNSUPPORTED_HW	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_UNSUPPORTED_HW,$/;"	e	enum:__anon8
+SD_VOLTAGE_WINDOW_SD	fatfs/drivers/fatfs_sd_sdio.h	448;"	d
+SD_WIDE_BUS_SUPPORT	fatfs/drivers/fatfs_sd_sdio.h	456;"	d
+SD_WP_ERASE_SKIP	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_WP_ERASE_SKIP = (23), \/*!< only partial address space was erased *\/$/;"	e	enum:__anon8
+SD_WRITE_PROT_VIOLATION	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_WRITE_PROT_VIOLATION = (13), \/*!< Attempt to program a write protect block *\/$/;"	e	enum:__anon8
+SD_cid	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CID SD_cid;$/;"	m	struct:__anon14
+SD_csd	fatfs/drivers/fatfs_sd_sdio.h	/^        SD_CSD SD_csd;$/;"	m	struct:__anon14
+SECURED_MODE	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+SIZE_OF_PROTECTED_AREA	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+SPEED_CLASS	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t DAT_BUS_WIDTH;__IO uint8_t SECURED_MODE;__IO uint16_t SD_CARD_TYPE;__IO uint32_t SIZE_OF_PROTECTED_AREA;__IO uint8_t SPEED_CLASS;__IO uint8_t PERFORMANCE_MOVE;__IO uint8_t AU_SIZE;__IO uint16_t ERASE_SIZE;__IO uint8_t ERASE_TIMEOUT;__IO uint8_t ERASE_OFFSET;$/;"	m	struct:__anon13
+SysSpecVersion	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t SysSpecVersion; \/*!< System specification version *\/$/;"	m	struct:__anon11
+TAAC	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t TAAC; \/*!< Data read access-time 1 *\/$/;"	m	struct:__anon11
+TempWrProtect	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t TempWrProtect; \/*!< Temporary write protection *\/$/;"	m	struct:__anon11
+WrBlockMisalign	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t WrBlockMisalign; \/*!< Write block misalignment *\/$/;"	m	struct:__anon11
+WrProtectGrEnable	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t WrProtectGrEnable; \/*!< Write protect group enable *\/$/;"	m	struct:__anon11
+WrProtectGrSize	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t WrProtectGrSize; \/*!< Write protect group size *\/$/;"	m	struct:__anon11
+WrSpeedFact	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t WrSpeedFact; \/*!< Write speed factor *\/$/;"	m	struct:__anon11
+WriteBlockPaPartial	fatfs/drivers/fatfs_sd_sdio.h	/^        __IO uint8_t WriteBlockPaPartial; \/*!< Partial blocks for write allowed *\/$/;"	m	struct:__anon11
+__STM324x9I_EVAL_SDIO_SD_H	fatfs/drivers/fatfs_sd_sdio.h	31;"	d
+TM_FATFS_USB_disk_initialize	fatfs/drivers/fatfs_usb.c	/^DSTATUS TM_FATFS_USB_disk_initialize(void) {$/;"	f
+TM_FATFS_USB_disk_ioctl	fatfs/drivers/fatfs_usb.c	/^DRESULT TM_FATFS_USB_disk_ioctl ($/;"	f
+TM_FATFS_USB_disk_read	fatfs/drivers/fatfs_usb.c	/^DRESULT TM_FATFS_USB_disk_read ($/;"	f
+TM_FATFS_USB_disk_status	fatfs/drivers/fatfs_usb.c	/^DSTATUS TM_FATFS_USB_disk_status(void) {$/;"	f
+TM_FATFS_USB_disk_write	fatfs/drivers/fatfs_usb.c	/^DRESULT TM_FATFS_USB_disk_write ($/;"	f
+USB_Stat	fatfs/drivers/fatfs_usb.c	/^static volatile DSTATUS USB_Stat = STA_NOINIT;	\/* Disk status *\/$/;"	v	file:
+FATFS_USB_TIMEOUT	fatfs/drivers/fatfs_usb.h	16;"	d
+_DISKIO_DEFINED_USB	fatfs/drivers/fatfs_usb.h	6;"	d
+ABORT	fatfs/ff.c	151;"	d	file:
+BPB_BkBootSec	fatfs/ff.c	455;"	d	file:
+BPB_BytsPerSec	fatfs/ff.c	433;"	d	file:
+BPB_ExtFlags	fatfs/ff.c	451;"	d	file:
+BPB_FATSz16	fatfs/ff.c	440;"	d	file:
+BPB_FATSz32	fatfs/ff.c	450;"	d	file:
+BPB_FSInfo	fatfs/ff.c	454;"	d	file:
+BPB_FSVer	fatfs/ff.c	452;"	d	file:
+BPB_HiddSec	fatfs/ff.c	443;"	d	file:
+BPB_Media	fatfs/ff.c	439;"	d	file:
+BPB_NumFATs	fatfs/ff.c	436;"	d	file:
+BPB_NumHeads	fatfs/ff.c	442;"	d	file:
+BPB_RootClus	fatfs/ff.c	453;"	d	file:
+BPB_RootEntCnt	fatfs/ff.c	437;"	d	file:
+BPB_RsvdSecCnt	fatfs/ff.c	435;"	d	file:
+BPB_SecPerClus	fatfs/ff.c	434;"	d	file:
+BPB_SecPerTrk	fatfs/ff.c	441;"	d	file:
+BPB_TotSec16	fatfs/ff.c	438;"	d	file:
+BPB_TotSec32	fatfs/ff.c	444;"	d	file:
+BS_55AA	fatfs/ff.c	467;"	d	file:
+BS_BootSig	fatfs/ff.c	446;"	d	file:
+BS_BootSig32	fatfs/ff.c	457;"	d	file:
+BS_DrvNum	fatfs/ff.c	445;"	d	file:
+BS_DrvNum32	fatfs/ff.c	456;"	d	file:
+BS_FilSysType	fatfs/ff.c	449;"	d	file:
+BS_FilSysType32	fatfs/ff.c	460;"	d	file:
+BS_OEMName	fatfs/ff.c	432;"	d	file:
+BS_VolID	fatfs/ff.c	447;"	d	file:
+BS_VolID32	fatfs/ff.c	458;"	d	file:
+BS_VolLab	fatfs/ff.c	448;"	d	file:
+BS_VolLab32	fatfs/ff.c	459;"	d	file:
+BS_jmpBoot	fatfs/ff.c	431;"	d	file:
+CurrVol	fatfs/ff.c	/^static BYTE CurrVol;			\/* Current drive *\/$/;"	v	file:
+DDE	fatfs/ff.c	488;"	d	file:
+DEF_NAMEBUF	fatfs/ff.c	517;"	d	file:
+DEF_NAMEBUF	fatfs/ff.c	526;"	d	file:
+DEF_NAMEBUF	fatfs/ff.c	530;"	d	file:
+DEF_NAMEBUF	fatfs/ff.c	534;"	d	file:
+DIR_Attr	fatfs/ff.c	470;"	d	file:
+DIR_CrtDate	fatfs/ff.c	474;"	d	file:
+DIR_CrtTime	fatfs/ff.c	473;"	d	file:
+DIR_CrtTimeTenth	fatfs/ff.c	472;"	d	file:
+DIR_FileSize	fatfs/ff.c	480;"	d	file:
+DIR_FstClusHI	fatfs/ff.c	476;"	d	file:
+DIR_FstClusLO	fatfs/ff.c	479;"	d	file:
+DIR_LstAccDate	fatfs/ff.c	475;"	d	file:
+DIR_NTres	fatfs/ff.c	471;"	d	file:
+DIR_Name	fatfs/ff.c	469;"	d	file:
+DIR_WrtDate	fatfs/ff.c	478;"	d	file:
+DIR_WrtTime	fatfs/ff.c	477;"	d	file:
+ENTER_FF	fatfs/ff.c	144;"	d	file:
+ENTER_FF	fatfs/ff.c	147;"	d	file:
+ExCvt	fatfs/ff.c	/^static const BYTE ExCvt[] = _EXCVT;	\/* Upper conversion table for extended characters *\/$/;"	v	file:
+FILESEM	fatfs/ff.c	/^} FILESEM;$/;"	t	typeref:struct:__anon15	file:
+FREE_BUF	fatfs/ff.c	519;"	d	file:
+FREE_BUF	fatfs/ff.c	528;"	d	file:
+FREE_BUF	fatfs/ff.c	532;"	d	file:
+FREE_BUF	fatfs/ff.c	536;"	d	file:
+FSI_Free_Count	fatfs/ff.c	463;"	d	file:
+FSI_LeadSig	fatfs/ff.c	461;"	d	file:
+FSI_Nxt_Free	fatfs/ff.c	464;"	d	file:
+FSI_StrucSig	fatfs/ff.c	462;"	d	file:
+FatFs	fatfs/ff.c	/^static FATFS *FatFs[_VOLUMES];	\/* Pointer to the file system objects (logical drives) *\/$/;"	v	file:
+Files	fatfs/ff.c	/^static FILESEM Files[_FS_LOCK];	\/* Open object lock semaphores *\/$/;"	v	file:
+Fsid	fatfs/ff.c	/^static WORD Fsid;				\/* File system mount ID *\/$/;"	v	file:
+GET_FATTIME	fatfs/ff.c	167;"	d	file:
+GET_FATTIME	fatfs/ff.c	169;"	d	file:
+INIT_BUF	fatfs/ff.c	518;"	d	file:
+INIT_BUF	fatfs/ff.c	527;"	d	file:
+INIT_BUF	fatfs/ff.c	531;"	d	file:
+INIT_BUF	fatfs/ff.c	535;"	d	file:
+IsDBCS1	fatfs/ff.c	393;"	d	file:
+IsDBCS1	fatfs/ff.c	395;"	d	file:
+IsDBCS1	fatfs/ff.c	406;"	d	file:
+IsDBCS2	fatfs/ff.c	399;"	d	file:
+IsDBCS2	fatfs/ff.c	401;"	d	file:
+IsDBCS2	fatfs/ff.c	407;"	d	file:
+IsDigit	fatfs/ff.c	388;"	d	file:
+IsLower	fatfs/ff.c	387;"	d	file:
+IsUpper	fatfs/ff.c	386;"	d	file:
+LDIR_Attr	fatfs/ff.c	482;"	d	file:
+LDIR_Chksum	fatfs/ff.c	484;"	d	file:
+LDIR_FstClusLO	fatfs/ff.c	485;"	d	file:
+LDIR_Ord	fatfs/ff.c	481;"	d	file:
+LDIR_Type	fatfs/ff.c	483;"	d	file:
+LEAVE_FF	fatfs/ff.c	145;"	d	file:
+LEAVE_FF	fatfs/ff.c	148;"	d	file:
+LLE	fatfs/ff.c	487;"	d	file:
+LfnBuf	fatfs/ff.c	/^static WCHAR LfnBuf[_MAX_LFN+1];$/;"	v	file:
+LfnOfs	fatfs/ff.c	/^const BYTE LfnOfs[] = {1,3,5,7,9,14,16,18,20,22,24,28,30};	\/* Offset of LFN characters in the directory entry *\/$/;"	v	file:
+MBR_Table	fatfs/ff.c	465;"	d	file:
+MIN_FAT16	fatfs/ff.c	423;"	d	file:
+MIN_FAT32	fatfs/ff.c	424;"	d	file:
+NDDE	fatfs/ff.c	489;"	d	file:
+NSFLAG	fatfs/ff.c	413;"	d	file:
+NS_BODY	fatfs/ff.c	417;"	d	file:
+NS_DOT	fatfs/ff.c	419;"	d	file:
+NS_EXT	fatfs/ff.c	418;"	d	file:
+NS_LAST	fatfs/ff.c	416;"	d	file:
+NS_LFN	fatfs/ff.c	415;"	d	file:
+NS_LOSS	fatfs/ff.c	414;"	d	file:
+N_FATS	fatfs/ff.c	3990;"	d	file:
+N_ROOTDIR	fatfs/ff.c	3989;"	d	file:
+SS	fatfs/ff.c	159;"	d	file:
+SS	fatfs/ff.c	161;"	d	file:
+SZ_DIR	fatfs/ff.c	486;"	d	file:
+SZ_PTE	fatfs/ff.c	466;"	d	file:
+_DF1E	fatfs/ff.c	192;"	d	file:
+_DF1E	fatfs/ff.c	202;"	d	file:
+_DF1E	fatfs/ff.c	210;"	d	file:
+_DF1E	fatfs/ff.c	220;"	d	file:
+_DF1S	fatfs/ff.c	191;"	d	file:
+_DF1S	fatfs/ff.c	201;"	d	file:
+_DF1S	fatfs/ff.c	209;"	d	file:
+_DF1S	fatfs/ff.c	219;"	d	file:
+_DF1S	fatfs/ff.c	227;"	d	file:
+_DF1S	fatfs/ff.c	234;"	d	file:
+_DF1S	fatfs/ff.c	241;"	d	file:
+_DF1S	fatfs/ff.c	248;"	d	file:
+_DF1S	fatfs/ff.c	255;"	d	file:
+_DF1S	fatfs/ff.c	262;"	d	file:
+_DF1S	fatfs/ff.c	269;"	d	file:
+_DF1S	fatfs/ff.c	276;"	d	file:
+_DF1S	fatfs/ff.c	283;"	d	file:
+_DF1S	fatfs/ff.c	290;"	d	file:
+_DF1S	fatfs/ff.c	297;"	d	file:
+_DF1S	fatfs/ff.c	304;"	d	file:
+_DF1S	fatfs/ff.c	311;"	d	file:
+_DF1S	fatfs/ff.c	318;"	d	file:
+_DF1S	fatfs/ff.c	325;"	d	file:
+_DF1S	fatfs/ff.c	332;"	d	file:
+_DF1S	fatfs/ff.c	339;"	d	file:
+_DF1S	fatfs/ff.c	346;"	d	file:
+_DF1S	fatfs/ff.c	353;"	d	file:
+_DF1S	fatfs/ff.c	360;"	d	file:
+_DF1S	fatfs/ff.c	367;"	d	file:
+_DF1S	fatfs/ff.c	377;"	d	file:
+_DF2E	fatfs/ff.c	194;"	d	file:
+_DF2S	fatfs/ff.c	193;"	d	file:
+_DS1E	fatfs/ff.c	196;"	d	file:
+_DS1E	fatfs/ff.c	204;"	d	file:
+_DS1E	fatfs/ff.c	212;"	d	file:
+_DS1E	fatfs/ff.c	222;"	d	file:
+_DS1S	fatfs/ff.c	195;"	d	file:
+_DS1S	fatfs/ff.c	203;"	d	file:
+_DS1S	fatfs/ff.c	211;"	d	file:
+_DS1S	fatfs/ff.c	221;"	d	file:
+_DS2E	fatfs/ff.c	198;"	d	file:
+_DS2E	fatfs/ff.c	206;"	d	file:
+_DS2E	fatfs/ff.c	214;"	d	file:
+_DS2E	fatfs/ff.c	224;"	d	file:
+_DS2S	fatfs/ff.c	197;"	d	file:
+_DS2S	fatfs/ff.c	205;"	d	file:
+_DS2S	fatfs/ff.c	213;"	d	file:
+_DS2S	fatfs/ff.c	223;"	d	file:
+_DS3E	fatfs/ff.c	216;"	d	file:
+_DS3S	fatfs/ff.c	215;"	d	file:
+_EXCVT	fatfs/ff.c	228;"	d	file:
+_EXCVT	fatfs/ff.c	235;"	d	file:
+_EXCVT	fatfs/ff.c	242;"	d	file:
+_EXCVT	fatfs/ff.c	249;"	d	file:
+_EXCVT	fatfs/ff.c	256;"	d	file:
+_EXCVT	fatfs/ff.c	263;"	d	file:
+_EXCVT	fatfs/ff.c	270;"	d	file:
+_EXCVT	fatfs/ff.c	277;"	d	file:
+_EXCVT	fatfs/ff.c	284;"	d	file:
+_EXCVT	fatfs/ff.c	291;"	d	file:
+_EXCVT	fatfs/ff.c	298;"	d	file:
+_EXCVT	fatfs/ff.c	305;"	d	file:
+_EXCVT	fatfs/ff.c	312;"	d	file:
+_EXCVT	fatfs/ff.c	319;"	d	file:
+_EXCVT	fatfs/ff.c	326;"	d	file:
+_EXCVT	fatfs/ff.c	333;"	d	file:
+_EXCVT	fatfs/ff.c	340;"	d	file:
+_EXCVT	fatfs/ff.c	347;"	d	file:
+_EXCVT	fatfs/ff.c	354;"	d	file:
+_EXCVT	fatfs/ff.c	361;"	d	file:
+_EXCVT	fatfs/ff.c	368;"	d	file:
+buf	fatfs/ff.c	/^	BYTE buf[64];$/;"	m	struct:__anon16	file:
+check_fs	fatfs/ff.c	/^BYTE check_fs (	\/* 0:FAT boor sector, 1:Valid boor sector but not FAT, 2:Not a boot sector, 3:Disk error *\/$/;"	f	file:
+chk_chr	fatfs/ff.c	/^int chk_chr (const char* str, int chr) {$/;"	f	file:
+chk_lock	fatfs/ff.c	/^FRESULT chk_lock (	\/* Check if the file can be accessed *\/$/;"	f	file:
+clear_lock	fatfs/ff.c	/^void clear_lock (	\/* Clear lock entries of the volume *\/$/;"	f	file:
+clmt_clust	fatfs/ff.c	/^DWORD clmt_clust (	\/* <2:Error, >=2:Cluster number *\/$/;"	f	file:
+clu	fatfs/ff.c	/^	DWORD clu;		\/* Object ID 2, directory (0:root) *\/$/;"	m	struct:__anon15	file:
+clust2sect	fatfs/ff.c	/^DWORD clust2sect (	\/* !=0: Sector number, 0: Failed - invalid cluster# *\/$/;"	f
+cmp_lfn	fatfs/ff.c	/^int cmp_lfn (			\/* 1:Matched, 0:Not matched *\/$/;"	f	file:
+create_chain	fatfs/ff.c	/^DWORD create_chain (	\/* 0:No free cluster, 1:Internal error, 0xFFFFFFFF:Disk error, >=2:New cluster# *\/$/;"	f	file:
+create_name	fatfs/ff.c	/^FRESULT create_name ($/;"	f	file:
+ctr	fatfs/ff.c	/^	WORD ctr;		\/* Object open counter, 0:none, 0x01..0xFF:read mode open count, 0x100:write mode *\/$/;"	m	struct:__anon15	file:
+dec_lock	fatfs/ff.c	/^FRESULT dec_lock (	\/* Decrement object open counter *\/$/;"	f	file:
+dir_alloc	fatfs/ff.c	/^FRESULT dir_alloc ($/;"	f	file:
+dir_find	fatfs/ff.c	/^FRESULT dir_find ($/;"	f	file:
+dir_next	fatfs/ff.c	/^FRESULT dir_next (	\/* FR_OK:Succeeded, FR_NO_FILE:End of table, FR_DENIED:Could not stretch *\/$/;"	f	file:
+dir_read	fatfs/ff.c	/^FRESULT dir_read ($/;"	f	file:
+dir_register	fatfs/ff.c	/^FRESULT dir_register (	\/* FR_OK:Successful, FR_DENIED:No free entry or too many SFN collision, FR_DISK_ERR:Disk error *\/$/;"	f	file:
+dir_remove	fatfs/ff.c	/^FRESULT dir_remove (	\/* FR_OK: Successful, FR_DISK_ERR: A disk error *\/$/;"	f	file:
+dir_sdi	fatfs/ff.c	/^FRESULT dir_sdi ($/;"	f	file:
+enq_lock	fatfs/ff.c	/^int enq_lock (void)	\/* Check if an entry is available for a new object *\/$/;"	f	file:
+f_chdir	fatfs/ff.c	/^FRESULT f_chdir ($/;"	f
+f_chdrive	fatfs/ff.c	/^FRESULT f_chdrive ($/;"	f
+f_chmod	fatfs/ff.c	/^FRESULT f_chmod ($/;"	f
+f_close	fatfs/ff.c	/^FRESULT f_close ($/;"	f
+f_closedir	fatfs/ff.c	/^FRESULT f_closedir ($/;"	f
+f_fdisk	fatfs/ff.c	/^FRESULT f_fdisk ($/;"	f
+f_forward	fatfs/ff.c	/^FRESULT f_forward ($/;"	f
+f_getcwd	fatfs/ff.c	/^FRESULT f_getcwd ($/;"	f
+f_getfree	fatfs/ff.c	/^FRESULT f_getfree ($/;"	f
+f_getlabel	fatfs/ff.c	/^FRESULT f_getlabel ($/;"	f
+f_gets	fatfs/ff.c	/^TCHAR* f_gets ($/;"	f
+f_lseek	fatfs/ff.c	/^FRESULT f_lseek ($/;"	f
+f_mkdir	fatfs/ff.c	/^FRESULT f_mkdir ($/;"	f
+f_mkfs	fatfs/ff.c	/^FRESULT f_mkfs ($/;"	f
+f_mount	fatfs/ff.c	/^FRESULT f_mount ($/;"	f
+f_open	fatfs/ff.c	/^FRESULT f_open ($/;"	f
+f_opendir	fatfs/ff.c	/^FRESULT f_opendir ($/;"	f
+f_printf	fatfs/ff.c	/^int f_printf ($/;"	f
+f_putc	fatfs/ff.c	/^int f_putc ($/;"	f
+f_puts	fatfs/ff.c	/^int f_puts ($/;"	f
+f_read	fatfs/ff.c	/^FRESULT f_read ($/;"	f
+f_readdir	fatfs/ff.c	/^FRESULT f_readdir ($/;"	f
+f_rename	fatfs/ff.c	/^FRESULT f_rename ($/;"	f
+f_setlabel	fatfs/ff.c	/^FRESULT f_setlabel ($/;"	f
+f_stat	fatfs/ff.c	/^FRESULT f_stat ($/;"	f
+f_sync	fatfs/ff.c	/^FRESULT f_sync ($/;"	f
+f_truncate	fatfs/ff.c	/^FRESULT f_truncate ($/;"	f
+f_unlink	fatfs/ff.c	/^FRESULT f_unlink ($/;"	f
+f_utime	fatfs/ff.c	/^FRESULT f_utime ($/;"	f
+f_write	fatfs/ff.c	/^FRESULT f_write ($/;"	f
+find_volume	fatfs/ff.c	/^FRESULT find_volume (	\/* FR_OK(0): successful, !=0: any error occurred *\/$/;"	f	file:
+fit_lfn	fatfs/ff.c	/^void fit_lfn ($/;"	f	file:
+follow_path	fatfs/ff.c	/^FRESULT follow_path (	\/* FR_OK(0): successful, !=0: error code *\/$/;"	f	file:
+fp	fatfs/ff.c	/^	FIL* fp;$/;"	m	struct:__anon16	file:
+fs	fatfs/ff.c	/^	FATFS *fs;		\/* Object ID 1, volume (NULL:blank entry) *\/$/;"	m	struct:__anon15	file:
+gen_numname	fatfs/ff.c	/^void gen_numname ($/;"	f	file:
+get_fat	fatfs/ff.c	/^DWORD get_fat (	\/* 0xFFFFFFFF:Disk error, 1:Internal error, 2..0x0FFFFFFF:Cluster status *\/$/;"	f
+get_fileinfo	fatfs/ff.c	/^void get_fileinfo (		\/* No return code *\/$/;"	f	file:
+get_ldnumber	fatfs/ff.c	/^int get_ldnumber (		\/* Returns logical drive number (-1:invalid drive) *\/$/;"	f	file:
+idx	fatfs/ff.c	/^	WORD idx;		\/* Object ID 3, directory index *\/$/;"	m	struct:__anon15	file:
+idx	fatfs/ff.c	/^	int idx, nchr;$/;"	m	struct:__anon16	file:
+inc_lock	fatfs/ff.c	/^UINT inc_lock (	\/* Increment object open counter and returns its index (0:Internal error) *\/$/;"	f	file:
+ld_clust	fatfs/ff.c	/^DWORD ld_clust ($/;"	f	file:
+lock_fs	fatfs/ff.c	/^int lock_fs ($/;"	f	file:
+mem_cmp	fatfs/ff.c	/^int mem_cmp (const void* dst, const void* src, UINT cnt) {$/;"	f	file:
+mem_cpy	fatfs/ff.c	/^void mem_cpy (void* dst, const void* src, UINT cnt) {$/;"	f	file:
+mem_set	fatfs/ff.c	/^void mem_set (void* dst, int val, UINT cnt) {$/;"	f	file:
+move_window	fatfs/ff.c	/^FRESULT move_window ($/;"	f	file:
+nchr	fatfs/ff.c	/^	int idx, nchr;$/;"	m	struct:__anon16	file:
+pick_lfn	fatfs/ff.c	/^int pick_lfn (			\/* 1:Succeeded, 0:Buffer overflow *\/$/;"	f	file:
+put_fat	fatfs/ff.c	/^FRESULT put_fat ($/;"	f
+putbuff	fatfs/ff.c	/^} putbuff;$/;"	t	typeref:struct:__anon16	file:
+putc_bfd	fatfs/ff.c	/^void putc_bfd ($/;"	f	file:
+remove_chain	fatfs/ff.c	/^FRESULT remove_chain ($/;"	f	file:
+st_clust	fatfs/ff.c	/^void st_clust ($/;"	f	file:
+sum_sfn	fatfs/ff.c	/^BYTE sum_sfn ($/;"	f	file:
+sync_fs	fatfs/ff.c	/^FRESULT sync_fs (	\/* FR_OK: successful, FR_DISK_ERR: failed *\/$/;"	f	file:
+sync_window	fatfs/ff.c	/^FRESULT sync_window ($/;"	f	file:
+unlock_fs	fatfs/ff.c	/^void unlock_fs ($/;"	f	file:
+validate	fatfs/ff.c	/^FRESULT validate (	\/* FR_OK(0): The object is valid, !=0: Invalid *\/$/;"	f	file:
+AM_ARC	fatfs/ff.h	313;"	d
+AM_DIR	fatfs/ff.h	312;"	d
+AM_HID	fatfs/ff.h	308;"	d
+AM_LFN	fatfs/ff.h	311;"	d
+AM_MASK	fatfs/ff.h	314;"	d
+AM_RDO	fatfs/ff.h	307;"	d
+AM_SYS	fatfs/ff.h	309;"	d
+AM_VOL	fatfs/ff.h	310;"	d
+CREATE_LINKMAP	fatfs/ff.h	318;"	d
+DIR	fatfs/ff.h	/^} DIR;$/;"	t	typeref:struct:__anon4
+EOF	fatfs/ff.h	244;"	d
+FATFS	fatfs/ff.h	/^} FATFS;$/;"	t	typeref:struct:__anon2
+FA_CREATE_ALWAYS	fatfs/ff.h	291;"	d
+FA_CREATE_NEW	fatfs/ff.h	290;"	d
+FA_OPEN_ALWAYS	fatfs/ff.h	292;"	d
+FA_OPEN_EXISTING	fatfs/ff.h	286;"	d
+FA_READ	fatfs/ff.h	285;"	d
+FA_WRITE	fatfs/ff.h	289;"	d
+FA__DIRTY	fatfs/ff.h	294;"	d
+FA__WRITTEN	fatfs/ff.h	293;"	d
+FIL	fatfs/ff.h	/^} FIL;$/;"	t	typeref:struct:__anon3
+FILINFO	fatfs/ff.h	/^} FILINFO;$/;"	t	typeref:struct:__anon5
+FRESULT	fatfs/ff.h	/^} FRESULT;$/;"	t	typeref:enum:__anon6
+FR_DENIED	fatfs/ff.h	/^	FR_DENIED,				\/* (7) Access denied due to prohibited access or directory full *\/$/;"	e	enum:__anon6
+FR_DISK_ERR	fatfs/ff.h	/^	FR_DISK_ERR,			\/* (1) A hard error occurred in the low level disk I\/O layer *\/$/;"	e	enum:__anon6
+FR_EXIST	fatfs/ff.h	/^	FR_EXIST,				\/* (8) Access denied due to prohibited access *\/$/;"	e	enum:__anon6
+FR_INT_ERR	fatfs/ff.h	/^	FR_INT_ERR,				\/* (2) Assertion failed *\/$/;"	e	enum:__anon6
+FR_INVALID_DRIVE	fatfs/ff.h	/^	FR_INVALID_DRIVE,		\/* (11) The logical drive number is invalid *\/$/;"	e	enum:__anon6
+FR_INVALID_NAME	fatfs/ff.h	/^	FR_INVALID_NAME,		\/* (6) The path name format is invalid *\/$/;"	e	enum:__anon6
+FR_INVALID_OBJECT	fatfs/ff.h	/^	FR_INVALID_OBJECT,		\/* (9) The file\/directory object is invalid *\/$/;"	e	enum:__anon6
+FR_INVALID_PARAMETER	fatfs/ff.h	/^	FR_INVALID_PARAMETER	\/* (19) Given parameter is invalid *\/$/;"	e	enum:__anon6
+FR_LOCKED	fatfs/ff.h	/^	FR_LOCKED,				\/* (16) The operation is rejected according to the file sharing policy *\/$/;"	e	enum:__anon6
+FR_MKFS_ABORTED	fatfs/ff.h	/^	FR_MKFS_ABORTED,		\/* (14) The f_mkfs() aborted due to any parameter error *\/$/;"	e	enum:__anon6
+FR_NOT_ENABLED	fatfs/ff.h	/^	FR_NOT_ENABLED,			\/* (12) The volume has no work area *\/$/;"	e	enum:__anon6
+FR_NOT_ENOUGH_CORE	fatfs/ff.h	/^	FR_NOT_ENOUGH_CORE,		\/* (17) LFN working buffer could not be allocated *\/$/;"	e	enum:__anon6
+FR_NOT_READY	fatfs/ff.h	/^	FR_NOT_READY,			\/* (3) The physical drive cannot work *\/$/;"	e	enum:__anon6
+FR_NO_FILE	fatfs/ff.h	/^	FR_NO_FILE,				\/* (4) Could not find the file *\/$/;"	e	enum:__anon6
+FR_NO_FILESYSTEM	fatfs/ff.h	/^	FR_NO_FILESYSTEM,		\/* (13) There is no valid FAT volume *\/$/;"	e	enum:__anon6
+FR_NO_PATH	fatfs/ff.h	/^	FR_NO_PATH,				\/* (5) Could not find the path *\/$/;"	e	enum:__anon6
+FR_OK	fatfs/ff.h	/^	FR_OK = 0,				\/* (0) Succeeded *\/$/;"	e	enum:__anon6
+FR_TIMEOUT	fatfs/ff.h	/^	FR_TIMEOUT,				\/* (15) Could not get a grant to access the volume within defined period *\/$/;"	e	enum:__anon6
+FR_TOO_MANY_OPEN_FILES	fatfs/ff.h	/^	FR_TOO_MANY_OPEN_FILES,	\/* (18) Number of open files > _FS_SHARE *\/$/;"	e	enum:__anon6
+FR_WRITE_PROTECTED	fatfs/ff.h	/^	FR_WRITE_PROTECTED,		\/* (10) The physical drive is write protected *\/$/;"	e	enum:__anon6
+FS_FAT12	fatfs/ff.h	300;"	d
+FS_FAT16	fatfs/ff.h	301;"	d
+FS_FAT32	fatfs/ff.h	302;"	d
+LD2PD	fatfs/ff.h	40;"	d
+LD2PD	fatfs/ff.h	44;"	d
+LD2PT	fatfs/ff.h	41;"	d
+LD2PT	fatfs/ff.h	45;"	d
+LD_DWORD	fatfs/ff.h	327;"	d
+LD_DWORD	fatfs/ff.h	332;"	d
+LD_WORD	fatfs/ff.h	326;"	d
+LD_WORD	fatfs/ff.h	331;"	d
+PARTITION	fatfs/ff.h	/^} PARTITION;$/;"	t	typeref:struct:__anon1
+ST_DWORD	fatfs/ff.h	329;"	d
+ST_DWORD	fatfs/ff.h	334;"	d
+ST_WORD	fatfs/ff.h	328;"	d
+ST_WORD	fatfs/ff.h	333;"	d
+TCHAR	fatfs/ff.h	/^typedef WCHAR TCHAR;$/;"	t
+TCHAR	fatfs/ff.h	/^typedef char TCHAR;$/;"	t
+_FATFS	fatfs/ff.h	18;"	d
+_T	fatfs/ff.h	59;"	d
+_T	fatfs/ff.h	66;"	d
+_TEXT	fatfs/ff.h	60;"	d
+_TEXT	fatfs/ff.h	67;"	d
+buf	fatfs/ff.h	/^	BYTE	buf[_MAX_SS];	\/* File private data read\/write window *\/$/;"	m	struct:__anon3
+cdir	fatfs/ff.h	/^	DWORD	cdir;			\/* Current directory start cluster (0:root) *\/$/;"	m	struct:__anon2
+cltbl	fatfs/ff.h	/^	DWORD*	cltbl;			\/* Pointer to the cluster link map table (Nulled on file open) *\/$/;"	m	struct:__anon3
+clust	fatfs/ff.h	/^	DWORD	clust;			\/* Current cluster *\/$/;"	m	struct:__anon4
+clust	fatfs/ff.h	/^	DWORD	clust;			\/* Current cluster of fpter (not valid when fprt is 0) *\/$/;"	m	struct:__anon3
+csize	fatfs/ff.h	/^	BYTE	csize;			\/* Sectors per cluster (1,2,4...128) *\/$/;"	m	struct:__anon2
+database	fatfs/ff.h	/^	DWORD	database;		\/* Data start sector *\/$/;"	m	struct:__anon2
+dir	fatfs/ff.h	/^	BYTE*	dir;			\/* Pointer to the current SFN entry in the win[] *\/$/;"	m	struct:__anon4
+dir_ptr	fatfs/ff.h	/^	BYTE*	dir_ptr;		\/* Pointer to the directory entry in the win[] *\/$/;"	m	struct:__anon3
+dir_sect	fatfs/ff.h	/^	DWORD	dir_sect;		\/* Sector number containing the directory entry *\/$/;"	m	struct:__anon3
+dirbase	fatfs/ff.h	/^	DWORD	dirbase;		\/* Root directory start sector (FAT32:Cluster#) *\/$/;"	m	struct:__anon2
+drv	fatfs/ff.h	/^	BYTE	drv;			\/* Physical drive number *\/$/;"	m	struct:__anon2
+dsect	fatfs/ff.h	/^	DWORD	dsect;			\/* Sector number appearing in buf[] (0:invalid) *\/$/;"	m	struct:__anon3
+err	fatfs/ff.h	/^	BYTE	err;			\/* Abort flag (error code) *\/$/;"	m	struct:__anon3
+f_eof	fatfs/ff.h	238;"	d
+f_error	fatfs/ff.h	239;"	d
+f_size	fatfs/ff.h	241;"	d
+f_tell	fatfs/ff.h	240;"	d
+fatbase	fatfs/ff.h	/^	DWORD	fatbase;		\/* FAT start sector *\/$/;"	m	struct:__anon2
+fattrib	fatfs/ff.h	/^	BYTE	fattrib;		\/* Attribute *\/$/;"	m	struct:__anon5
+fdate	fatfs/ff.h	/^	WORD	fdate;			\/* Last modified date *\/$/;"	m	struct:__anon5
+flag	fatfs/ff.h	/^	BYTE	flag;			\/* Status flags *\/$/;"	m	struct:__anon3
+fn	fatfs/ff.h	/^	BYTE*	fn;				\/* Pointer to the SFN (in\/out) {file[8],ext[3],status[1]} *\/$/;"	m	struct:__anon4
+fname	fatfs/ff.h	/^	TCHAR	fname[13];		\/* Short file name (8.3 format) *\/$/;"	m	struct:__anon5
+fptr	fatfs/ff.h	/^	DWORD	fptr;			\/* File read\/write pointer (Zeroed on file open) *\/$/;"	m	struct:__anon3
+free_clust	fatfs/ff.h	/^	DWORD	free_clust;		\/* Number of free clusters *\/$/;"	m	struct:__anon2
+fs	fatfs/ff.h	/^	FATFS*	fs;				\/* Pointer to the owner file system object (**do not change order**) *\/$/;"	m	struct:__anon4
+fs	fatfs/ff.h	/^	FATFS*	fs;				\/* Pointer to the related file system object (**do not change order**) *\/$/;"	m	struct:__anon3
+fs_type	fatfs/ff.h	/^	BYTE	fs_type;		\/* FAT sub-type (0:Not mounted) *\/$/;"	m	struct:__anon2
+fsi_flag	fatfs/ff.h	/^	BYTE	fsi_flag;		\/* FSINFO flags (b7:disabled, b0:dirty) *\/$/;"	m	struct:__anon2
+fsize	fatfs/ff.h	/^	DWORD	fsize;			\/* File size *\/$/;"	m	struct:__anon3
+fsize	fatfs/ff.h	/^	DWORD	fsize;			\/* File size *\/$/;"	m	struct:__anon5
+fsize	fatfs/ff.h	/^	DWORD	fsize;			\/* Sectors per FAT *\/$/;"	m	struct:__anon2
+ftime	fatfs/ff.h	/^	WORD	ftime;			\/* Last modified time *\/$/;"	m	struct:__anon5
+id	fatfs/ff.h	/^	WORD	id;				\/* File system mount ID *\/$/;"	m	struct:__anon2
+id	fatfs/ff.h	/^	WORD	id;				\/* Owner file system mount ID (**do not change order**) *\/$/;"	m	struct:__anon3
+id	fatfs/ff.h	/^	WORD	id;				\/* Owner file system mount ID (**do not change order**) *\/$/;"	m	struct:__anon4
+index	fatfs/ff.h	/^	WORD	index;			\/* Current read\/write index number *\/$/;"	m	struct:__anon4
+last_clust	fatfs/ff.h	/^	DWORD	last_clust;		\/* Last allocated cluster *\/$/;"	m	struct:__anon2
+lfn	fatfs/ff.h	/^	WCHAR*	lfn;			\/* Pointer to the LFN working buffer *\/$/;"	m	struct:__anon4
+lfn_idx	fatfs/ff.h	/^	WORD	lfn_idx;		\/* Last matched LFN index number (0xFFFF:No LFN) *\/$/;"	m	struct:__anon4
+lfname	fatfs/ff.h	/^	TCHAR*	lfname;			\/* Pointer to the LFN buffer *\/$/;"	m	struct:__anon5
+lfsize	fatfs/ff.h	/^	UINT 	lfsize;			\/* Size of LFN buffer in TCHAR *\/$/;"	m	struct:__anon5
+lockid	fatfs/ff.h	/^	UINT	lockid;			\/* File lock ID (index of file semaphore table Files[]) *\/$/;"	m	struct:__anon4
+lockid	fatfs/ff.h	/^	UINT	lockid;			\/* File lock ID origin from 1 (index of file semaphore table Files[]) *\/$/;"	m	struct:__anon3
+n_fatent	fatfs/ff.h	/^	DWORD	n_fatent;		\/* Number of FAT entries, = number of clusters + 2 *\/$/;"	m	struct:__anon2
+n_fats	fatfs/ff.h	/^	BYTE	n_fats;			\/* Number of FAT copies (1 or 2) *\/$/;"	m	struct:__anon2
+n_rootdir	fatfs/ff.h	/^	WORD	n_rootdir;		\/* Number of root directory entries (FAT12\/16) *\/$/;"	m	struct:__anon2
+pd	fatfs/ff.h	/^	BYTE pd;	\/* Physical drive number *\/$/;"	m	struct:__anon1
+pt	fatfs/ff.h	/^	BYTE pt;	\/* Partition: 0:Auto detect, 1-4:Forced partition) *\/$/;"	m	struct:__anon1
+sclust	fatfs/ff.h	/^	DWORD	sclust;			\/* File start cluster (0:no cluster chain, always 0 when fsize is 0) *\/$/;"	m	struct:__anon3
+sclust	fatfs/ff.h	/^	DWORD	sclust;			\/* Table start cluster (0:Root dir) *\/$/;"	m	struct:__anon4
+sect	fatfs/ff.h	/^	DWORD	sect;			\/* Current sector *\/$/;"	m	struct:__anon4
+sobj	fatfs/ff.h	/^	_SYNC_t	sobj;			\/* Identifier of sync object *\/$/;"	m	struct:__anon2
+ssize	fatfs/ff.h	/^	WORD	ssize;			\/* Bytes per sector (512, 1024, 2048 or 4096) *\/$/;"	m	struct:__anon2
+volbase	fatfs/ff.h	/^	DWORD	volbase;		\/* Volume start sector *\/$/;"	m	struct:__anon2
+wflag	fatfs/ff.h	/^	BYTE	wflag;			\/* win[] flag (b0:dirty) *\/$/;"	m	struct:__anon2
+win	fatfs/ff.h	/^	BYTE	win[_MAX_SS];	\/* Disk access window for Directory, FAT (and file data at tiny cfg) *\/$/;"	m	struct:__anon2
+winsect	fatfs/ff.h	/^	DWORD	winsect;		\/* Current sector appearing in the win[] *\/$/;"	m	struct:__anon2
+_CODE_PAGE	fatfs/ffconf.h	68;"	d
+_FFCONF	fatfs/ffconf.h	5;"	d
+_FS_LOCK	fatfs/ffconf.h	216;"	d
+_FS_MINIMIZE	fatfs/ffconf.h	26;"	d
+_FS_NOFSINFO	fatfs/ffconf.h	185;"	d
+_FS_NORTC	fatfs/ffconf.h	202;"	d
+_FS_READONLY	fatfs/ffconf.h	19;"	d
+_FS_REENTRANT	fatfs/ffconf.h	228;"	d
+_FS_RPATH	fatfs/ffconf.h	134;"	d
+_FS_TIMEOUT	fatfs/ffconf.h	229;"	d
+_FS_TINY	fatfs/ffconf.h	11;"	d
+_LFN_UNICODE	fatfs/ffconf.h	116;"	d
+_MAX_LFN	fatfs/ffconf.h	101;"	d
+_MAX_SS	fatfs/ffconf.h	170;"	d
+_MIN_SS	fatfs/ffconf.h	169;"	d
+_MULTI_PARTITION	fatfs/ffconf.h	161;"	d
+_NORTC_MDAY	fatfs/ffconf.h	204;"	d
+_NORTC_MON	fatfs/ffconf.h	203;"	d
+_NORTC_YEAR	fatfs/ffconf.h	205;"	d
+_STRF_ENCODE	fatfs/ffconf.h	122;"	d
+_STR_VOLUME_ID	fatfs/ffconf.h	152;"	d
+_SYNC_t	fatfs/ffconf.h	230;"	d
+_USE_FASTSEEK	fatfs/ffconf.h	50;"	d
+_USE_FORWARD	fatfs/ffconf.h	59;"	d
+_USE_LABEL	fatfs/ffconf.h	54;"	d
+_USE_LFN	fatfs/ffconf.h	100;"	d
+_USE_MKFS	fatfs/ffconf.h	45;"	d
+_USE_STRFUNC	fatfs/ffconf.h	36;"	d
+_USE_TRIM	fatfs/ffconf.h	179;"	d
+_VOLUMES	fatfs/ffconf.h	148;"	d
+_VOLUME_STRS	fatfs/ffconf.h	153;"	d
+_WORD_ACCESS	fatfs/ffconf.h	248;"	d
+BYTE	fatfs/integer.h	/^typedef unsigned char	BYTE;$/;"	t
+DWORD	fatfs/integer.h	/^typedef unsigned long	DWORD;$/;"	t
+INT	fatfs/integer.h	/^typedef int				INT;$/;"	t
+LONG	fatfs/integer.h	/^typedef long			LONG;$/;"	t
+SHORT	fatfs/integer.h	/^typedef short			SHORT;$/;"	t
+UINT	fatfs/integer.h	/^typedef unsigned int	UINT;$/;"	t
+WCHAR	fatfs/integer.h	/^typedef unsigned short	WCHAR;$/;"	t
+WORD	fatfs/integer.h	/^typedef unsigned short	WORD;$/;"	t
+_FF_INTEGER	fatfs/integer.h	6;"	d
+_TINY_TABLE	fatfs/option/cc932.c	9;"	d	file:
+ff_convert	fatfs/option/cc932.c	/^WCHAR ff_convert (	\/* Converted code, 0 means conversion error *\/$/;"	f
+ff_wtoupper	fatfs/option/cc932.c	/^WCHAR ff_wtoupper (	\/* Upper converted character *\/$/;"	f
+sjis2uni	fatfs/option/cc932.c	/^const WCHAR sjis2uni[] = {$/;"	v	file:
+uni2sjis	fatfs/option/cc932.c	/^const WCHAR uni2sjis[] = {$/;"	v	file:
+ff_convert	fatfs/option/cc936.c	/^WCHAR ff_convert (	\/* Converted code, 0 means conversion error *\/$/;"	f
+ff_wtoupper	fatfs/option/cc936.c	/^WCHAR ff_wtoupper (	\/* Upper converted character *\/$/;"	f
+oem2uni	fatfs/option/cc936.c	/^const WCHAR oem2uni[] = {$/;"	v	file:
+uni2oem	fatfs/option/cc936.c	/^const WCHAR uni2oem[] = {$/;"	v	file:
+ff_convert	fatfs/option/cc949.c	/^WCHAR ff_convert (	\/* Converted code, 0 means conversion error *\/$/;"	f
+ff_wtoupper	fatfs/option/cc949.c	/^WCHAR ff_wtoupper (	\/* Upper converted character *\/$/;"	f
+oem2uni	fatfs/option/cc949.c	/^const WCHAR oem2uni[] = {$/;"	v	file:
+uni2oem	fatfs/option/cc949.c	/^const WCHAR uni2oem[] = {$/;"	v	file:
+ff_convert	fatfs/option/cc950.c	/^WCHAR ff_convert (	\/* Converted code, 0 means conversion error *\/$/;"	f
+ff_wtoupper	fatfs/option/cc950.c	/^WCHAR ff_wtoupper (	\/* Upper converted character *\/$/;"	f
+oem2uni	fatfs/option/cc950.c	/^const WCHAR oem2uni[] = {$/;"	v	file:
+uni2oem	fatfs/option/cc950.c	/^const WCHAR uni2oem[] = {$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1250(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1251(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1252(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1253(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1254(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1255(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1256(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1257(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP1258(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP437(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP720(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP737(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP775(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP850(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP852(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP855(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP857(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP858(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP862(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP866(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+Tbl	fatfs/option/ccsbcs.c	/^const WCHAR Tbl[] = {	\/*  CP874(0x80-0xFF) to Unicode conversion table *\/$/;"	v	file:
+_TBLDEF	fatfs/option/ccsbcs.c	120;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	142;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	164;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	186;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	208;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	230;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	252;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	274;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	296;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	318;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	32;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	340;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	362;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	384;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	406;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	428;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	450;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	472;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	54;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	76;"	d	file:
+_TBLDEF	fatfs/option/ccsbcs.c	98;"	d	file:
+ff_convert	fatfs/option/ccsbcs.c	/^WCHAR ff_convert (	\/* Converted character, Returns zero on error *\/$/;"	f
+ff_wtoupper	fatfs/option/ccsbcs.c	/^WCHAR ff_wtoupper (	\/* Upper converted character *\/$/;"	f
+ff_cre_syncobj	fatfs/option/syscall.c	/^int ff_cre_syncobj (	\/* !=0:Function succeeded, ==0:Could not create due to any error *\/$/;"	f
+ff_del_syncobj	fatfs/option/syscall.c	/^int ff_del_syncobj (	\/* !=0:Function succeeded, ==0:Could not delete due to any error *\/$/;"	f
+ff_memalloc	fatfs/option/syscall.c	/^void* ff_memalloc (	\/* Returns pointer to the allocated memory block *\/$/;"	f
+ff_memfree	fatfs/option/syscall.c	/^void ff_memfree ($/;"	f
+ff_rel_grant	fatfs/option/syscall.c	/^void ff_rel_grant ($/;"	f
+ff_req_grant	fatfs/option/syscall.c	/^int ff_req_grant (	\/* 1:Got a grant to access the volume, 0:Could not get a grant *\/$/;"	f
+TM_DELAY_DisableDelayTimer	fatfs/tm_stm32f4_delay.c	/^void TM_DELAY_DisableDelayTimer(void) {$/;"	f
+TM_DELAY_EnableDelayTimer	fatfs/tm_stm32f4_delay.c	/^void TM_DELAY_EnableDelayTimer(void) {$/;"	f
+TM_DELAY_INT_InitTIM	fatfs/tm_stm32f4_delay.c	/^void TM_DELAY_INT_InitTIM(void) {$/;"	f
+TM_DELAY_Init	fatfs/tm_stm32f4_delay.c	/^void TM_DELAY_Init(void) {$/;"	f
+TM_DELAY_Initialized	fatfs/tm_stm32f4_delay.c	/^uint8_t TM_DELAY_Initialized = 0;$/;"	v
+TM_DELAY_TIM_IRQ_HANDLER	fatfs/tm_stm32f4_delay.c	/^void TM_DELAY_TIM_IRQ_HANDLER(void) {$/;"	f
+TM_Time	fatfs/tm_stm32f4_delay.c	/^__IO uint32_t TM_Time = 0;$/;"	v
+TM_Time2	fatfs/tm_stm32f4_delay.c	/^__IO uint32_t TM_Time2 = 0;$/;"	v
+TM_TimingDelay	fatfs/tm_stm32f4_delay.c	/^__IO uint32_t TM_TimingDelay = 0;$/;"	v
+mult	fatfs/tm_stm32f4_delay.c	/^volatile uint32_t mult;$/;"	v
+Delay	fatfs/tm_stm32f4_delay.h	/^__STATIC_INLINE void Delay(uint32_t micros) {$/;"	f
+Delayms	fatfs/tm_stm32f4_delay.h	/^__STATIC_INLINE void Delayms(uint32_t millis) {$/;"	f
+TM_DELAY_H	fatfs/tm_stm32f4_delay.h	84;"	d
+TM_DELAY_SetTime	fatfs/tm_stm32f4_delay.h	193;"	d
+TM_DELAY_SetTime2	fatfs/tm_stm32f4_delay.h	228;"	d
+TM_DELAY_Time	fatfs/tm_stm32f4_delay.h	184;"	d
+TM_DELAY_Time2	fatfs/tm_stm32f4_delay.h	217;"	d
+TM_FATFS_DriveSize	fatfs/tm_stm32f4_fatfs.c	/^FRESULT TM_FATFS_DriveSize(uint32_t* total, uint32_t* free) {$/;"	f
+TM_FATFS_TruncateBeginning	fatfs/tm_stm32f4_fatfs.c	/^FRESULT TM_FATFS_TruncateBeginning(FIL* fil, uint32_t index) {$/;"	f
+TM_FATFS_USBDriveSize	fatfs/tm_stm32f4_fatfs.c	/^FRESULT TM_FATFS_USBDriveSize(uint32_t* total, uint32_t* free) {$/;"	f
+FATFS_TRUNCATE_BUFFER_SIZE	fatfs/tm_stm32f4_fatfs.h	279;"	d
+TM_FATFS_H	fatfs/tm_stm32f4_fatfs.h	253;"	d
+TM_SPI1_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI1_Init(TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI2_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI2_Init(TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI3_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI3_Init(TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI4_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI4_Init(TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI5_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI5_Init(TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI6_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI6_Init(TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI_Init	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_Init(SPI_TypeDef* SPIx, TM_SPI_PinsPack_t pinspack) {$/;"	f
+TM_SPI_ReadMulti	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_ReadMulti(SPI_TypeDef* SPIx, uint8_t* dataIn, uint8_t dummy, uint16_t count) {$/;"	f
+TM_SPI_ReadMulti16	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_ReadMulti16(SPI_TypeDef* SPIx, uint16_t* dataIn, uint16_t dummy, uint16_t count) {$/;"	f
+TM_SPI_Send	fatfs/tm_stm32f4_spi.c	/^uint8_t TM_SPI_Send(SPI_TypeDef* SPIx, uint8_t data) {$/;"	f
+TM_SPI_Send16	fatfs/tm_stm32f4_spi.c	/^uint16_t TM_SPI_Send16(SPI_TypeDef* SPIx, uint16_t data) {$/;"	f
+TM_SPI_SendMulti	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_SendMulti(SPI_TypeDef* SPIx, uint8_t* dataOut, uint8_t* dataIn, uint16_t count) {$/;"	f
+TM_SPI_SendMulti16	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_SendMulti16(SPI_TypeDef* SPIx, uint16_t* dataOut, uint16_t* dataIn, uint16_t count) {$/;"	f
+TM_SPI_WriteMulti	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_WriteMulti(SPI_TypeDef* SPIx, uint8_t* dataOut, uint16_t count) {$/;"	f
+TM_SPI_WriteMulti16	fatfs/tm_stm32f4_spi.c	/^void TM_SPI_WriteMulti16(SPI_TypeDef* SPIx, uint16_t* dataOut, uint16_t count) {$/;"	f
+TM_SPI1_DATASIZE	fatfs/tm_stm32f4_spi.h	117;"	d
+TM_SPI1_FIRSTBIT	fatfs/tm_stm32f4_spi.h	121;"	d
+TM_SPI1_MASTERSLAVE	fatfs/tm_stm32f4_spi.h	125;"	d
+TM_SPI1_MODE	fatfs/tm_stm32f4_spi.h	129;"	d
+TM_SPI1_PRESCALER	fatfs/tm_stm32f4_spi.h	113;"	d
+TM_SPI2_DATASIZE	fatfs/tm_stm32f4_spi.h	140;"	d
+TM_SPI2_FIRSTBIT	fatfs/tm_stm32f4_spi.h	144;"	d
+TM_SPI2_MASTERSLAVE	fatfs/tm_stm32f4_spi.h	148;"	d
+TM_SPI2_MODE	fatfs/tm_stm32f4_spi.h	152;"	d
+TM_SPI2_PRESCALER	fatfs/tm_stm32f4_spi.h	136;"	d
+TM_SPI3_DATASIZE	fatfs/tm_stm32f4_spi.h	163;"	d
+TM_SPI3_FIRSTBIT	fatfs/tm_stm32f4_spi.h	167;"	d
+TM_SPI3_MASTERSLAVE	fatfs/tm_stm32f4_spi.h	171;"	d
+TM_SPI3_MODE	fatfs/tm_stm32f4_spi.h	175;"	d
+TM_SPI3_PRESCALER	fatfs/tm_stm32f4_spi.h	159;"	d
+TM_SPI4_DATASIZE	fatfs/tm_stm32f4_spi.h	186;"	d
+TM_SPI4_FIRSTBIT	fatfs/tm_stm32f4_spi.h	190;"	d
+TM_SPI4_MASTERSLAVE	fatfs/tm_stm32f4_spi.h	194;"	d
+TM_SPI4_MODE	fatfs/tm_stm32f4_spi.h	198;"	d
+TM_SPI4_PRESCALER	fatfs/tm_stm32f4_spi.h	182;"	d
+TM_SPI5_DATASIZE	fatfs/tm_stm32f4_spi.h	209;"	d
+TM_SPI5_FIRSTBIT	fatfs/tm_stm32f4_spi.h	213;"	d
+TM_SPI5_MASTERSLAVE	fatfs/tm_stm32f4_spi.h	217;"	d
+TM_SPI5_MODE	fatfs/tm_stm32f4_spi.h	221;"	d
+TM_SPI5_PRESCALER	fatfs/tm_stm32f4_spi.h	205;"	d
+TM_SPI6_DATASIZE	fatfs/tm_stm32f4_spi.h	232;"	d
+TM_SPI6_FIRSTBIT	fatfs/tm_stm32f4_spi.h	236;"	d
+TM_SPI6_MASTERSLAVE	fatfs/tm_stm32f4_spi.h	240;"	d
+TM_SPI6_MODE	fatfs/tm_stm32f4_spi.h	244;"	d
+TM_SPI6_PRESCALER	fatfs/tm_stm32f4_spi.h	228;"	d
+TM_SPI_H	fatfs/tm_stm32f4_spi.h	76;"	d
+Frequency	fatfs/tm_stm32f4_timer_properties.h	/^	uint32_t Frequency;$/;"	m	struct:__anon18
+MaxPeriod	fatfs/tm_stm32f4_timer_properties.h	/^	uint32_t MaxPeriod;$/;"	m	struct:__anon18
+MaxPrescaler	fatfs/tm_stm32f4_timer_properties.h	/^	uint32_t MaxPrescaler;$/;"	m	struct:__anon18
+Period	fatfs/tm_stm32f4_timer_properties.h	/^	uint32_t Period;$/;"	m	struct:__anon18
+Prescaler	fatfs/tm_stm32f4_timer_properties.h	/^	uint32_t Prescaler;$/;"	m	struct:__anon18
+TM_TIMER_PROPERTIES_H	fatfs/tm_stm32f4_timer_properties.h	35;"	d
+TM_TIMER_PROPERTIES_Result_Error	fatfs/tm_stm32f4_timer_properties.h	/^	TM_TIMER_PROPERTIES_Result_Error,$/;"	e	enum:__anon17
+TM_TIMER_PROPERTIES_Result_FrequencyTooHigh	fatfs/tm_stm32f4_timer_properties.h	/^	TM_TIMER_PROPERTIES_Result_FrequencyTooHigh,$/;"	e	enum:__anon17
+TM_TIMER_PROPERTIES_Result_FrequencyTooLow	fatfs/tm_stm32f4_timer_properties.h	/^	TM_TIMER_PROPERTIES_Result_FrequencyTooLow$/;"	e	enum:__anon17
+TM_TIMER_PROPERTIES_Result_Ok	fatfs/tm_stm32f4_timer_properties.h	/^	TM_TIMER_PROPERTIES_Result_Ok,$/;"	e	enum:__anon17
+TM_TIMER_PROPERTIES_Result_TimerNotValid	fatfs/tm_stm32f4_timer_properties.h	/^	TM_TIMER_PROPERTIES_Result_TimerNotValid,$/;"	e	enum:__anon17
+TM_TIMER_PROPERTIES_Result_t	fatfs/tm_stm32f4_timer_properties.h	/^} TM_TIMER_PROPERTIES_Result_t;$/;"	t	typeref:enum:__anon17
+TM_TIMER_PROPERTIES_t	fatfs/tm_stm32f4_timer_properties.h	/^} TM_TIMER_PROPERTIES_t;$/;"	t	typeref:struct:__anon18
+TimerFrequency	fatfs/tm_stm32f4_timer_properties.h	/^	uint32_t TimerFrequency;$/;"	m	struct:__anon18
+ls	file_command.c	/^uint8_t ls(uint8_t *Directory)$/;"	f
+ls_all	file_command.c	/^uint8_t ls_all(uint8_t *Directory)$/;"	f
+read_file	file_command.c	/^uint8_t read_file(uint8_t *Directory)$/;"	f
+write_file	file_command.c	/^uint8_t write_file(void)$/;"	f
+__FILE_COMMAND_H	file_command.h	2;"	d
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+GPIO_Configuration	init_mcu.c	/^void GPIO_Configuration(void)$/;"	f
+USART1_Configuration	init_mcu.c	/^void USART1_Configuration(void)$/;"	f
+USART1_puts	init_mcu.c	/^void USART1_puts(char* s)$/;"	f
+_write	init_mcu.c	/^int _write (int fd, char *ptr, int len)$/;"	f
+send_byte	init_mcu.c	/^void send_byte(uint8_t b)$/;"	f
+__INIT_MCU_H	init_mcu.h	2;"	d
+ABS	main.c	44;"	d	file:
+Block_Buffer	main.c	/^uint8_t Block_Buffer[512] = "FatFs is a generic FAT file system module for small embedded systems. The FatFs is written in compliance with ANSI C and completely separated from the disk I\/O layer. Therefore it is independent of hardware architecture. It can be incorporated into low cost microcontrollers, such as AVR, 8051, PIC, ARM, Z80, 68k and etc..., without any change. \\r\\n ";                           $/;"	v
+Buffer	main.c	/^float Buffer[6];$/;"	v
+Delay_1us	main.c	/^static inline void Delay_1us(uint32_t nCnt_1us)$/;"	f	file:
+Demo_GyroConfig	main.c	/^static void Demo_GyroConfig(void)$/;"	f	file:
+Demo_GyroReadAngRate	main.c	/^static void Demo_GyroReadAngRate (float* pfData)$/;"	f	file:
+L3GD20_TIMEOUT_UserCallback	main.c	/^uint32_t L3GD20_TIMEOUT_UserCallback(void)$/;"	f
+L3G_Sensitivity_2000dps	main.c	47;"	d	file:
+L3G_Sensitivity_250dps	main.c	45;"	d	file:
+L3G_Sensitivity_500dps	main.c	46;"	d	file:
+assert_failed	main.c	/^void assert_failed(uint8_t* file, uint32_t line)$/;"	f
+br	main.c	/^UINT      br, bw;$/;"	v
+bw	main.c	/^UINT      br, bw;$/;"	v
+dir	main.c	/^DIR       dir;$/;"	v
+fdst	main.c	/^FIL       fsrc, fdst;$/;"	v
+fileInfo	main.c	/^FILINFO   fileInfo;$/;"	v
+filedir	main.c	/^uint8_t filedir[]="0:\/";$/;"	v
+fs	main.c	/^FATFS     fs;$/;"	v
+fsrc	main.c	/^FIL       fsrc, fdst;$/;"	v
+main	main.c	/^int main(void)$/;"	f
+res	main.c	/^FRESULT   res;$/;"	v
+LED1	main.h	46;"	d
+LED2	main.h	47;"	d
+LED3	main.h	48;"	d
+LED4	main.h	49;"	d
+LED_OFF	main.h	45;"	d
+LED_ON	main.h	44;"	d
+LED_TOGGLE	main.h	43;"	d
+TOGGLE_DEBUG	main.h	50;"	d
+__MAIN_H	main.h	30;"	d
+ABS	main_mems.c	43;"	d	file:
+Buffer	main_mems.c	/^float Buffer[6];$/;"	v
+Delay	main_mems.c	/^void Delay(uint32_t nTime)$/;"	f
+Demo_GyroConfig	main_mems.c	/^static void Demo_GyroConfig(void)$/;"	f	file:
+Demo_GyroReadAngRate	main_mems.c	/^static void Demo_GyroReadAngRate (float* pfData)$/;"	f	file:
+Demo_MEMS	main_mems.c	/^static void Demo_MEMS(void)$/;"	f	file:
+Gyro	main_mems.c	/^float Gyro[3];$/;"	v
+Gyro_SimpleCalibration	main_mems.c	/^static void Gyro_SimpleCalibration(float* GyroData)$/;"	f	file:
+L3GD20_TIMEOUT_UserCallback	main_mems.c	/^uint32_t L3GD20_TIMEOUT_UserCallback(void)$/;"	f
+L3G_Sensitivity_2000dps	main_mems.c	46;"	d	file:
+L3G_Sensitivity_250dps	main_mems.c	44;"	d	file:
+L3G_Sensitivity_500dps	main_mems.c	45;"	d	file:
+RCC_Clocks	main_mems.c	/^RCC_ClocksTypeDef RCC_Clocks;$/;"	v
+TimingDelay	main_mems.c	/^static __IO uint32_t TimingDelay;$/;"	v	file:
+TimingDelay_Decrement	main_mems.c	/^void TimingDelay_Decrement(void)$/;"	f
+X_BiasError	main_mems.c	/^float X_BiasError, Y_BiasError, Z_BiasError = 0.0;$/;"	v
+Xval	main_mems.c	/^uint8_t Xval, Yval = 0x00;$/;"	v
+Y_BiasError	main_mems.c	/^float X_BiasError, Y_BiasError, Z_BiasError = 0.0;$/;"	v
+Yval	main_mems.c	/^uint8_t Xval, Yval = 0x00;$/;"	v
+Z_BiasError	main_mems.c	/^float X_BiasError, Y_BiasError, Z_BiasError = 0.0;$/;"	v
+assert_failed	main_mems.c	/^void assert_failed(uint8_t* file, uint32_t line)$/;"	f
+main	main_mems.c	/^int main(void)$/;"	f
+SPI_InitStruct	spi.c	/^SPI_InitTypeDef  SPI_InitStruct;$/;"	v
+SPIx_Init	spi.c	/^void SPIx_Init(void)$/;"	f
+SPIx_ReadWriteByte	spi.c	/^u8 SPIx_ReadWriteByte(u8 TxData)$/;"	f
+SPIx_SetSpeed	spi.c	/^void SPIx_SetSpeed(u8 SpeedSet)		$/;"	f
+__SPI_H	spi.h	2;"	d
+CopyDataInit	startup_stm32f429_439xx.S	/^CopyDataInit:$/;"	l
+Default_Handler	startup_stm32f429_439xx.S	/^Default_Handler:$/;"	l
+FillZerobss	startup_stm32f429_439xx.S	/^FillZerobss:$/;"	l
+Infinite_Loop	startup_stm32f429_439xx.S	/^Infinite_Loop:$/;"	l
+LoopCopyDataInit	startup_stm32f429_439xx.S	/^LoopCopyDataInit:$/;"	l
+LoopFillZerobss	startup_stm32f429_439xx.S	/^LoopFillZerobss:$/;"	l
+Reset_Handler	startup_stm32f429_439xx.S	/^Reset_Handler:  $/;"	l
+g_pfnVectors	startup_stm32f429_439xx.S	/^g_pfnVectors:$/;"	l
+HSE_VALUE	stm32f4xx_conf.h	34;"	d
+HSE_VALUE	stm32f4xx_conf.h	35;"	d
+__STM32F4xx_CONF_H	stm32f4xx_conf.h	30;"	d
+assert_param	stm32f4xx_conf.h	93;"	d
+assert_param	stm32f4xx_conf.h	97;"	d
+BusFault_Handler	stm32f4xx_it.c	/^void BusFault_Handler(void)$/;"	f
+DebugMon_Handler	stm32f4xx_it.c	/^void DebugMon_Handler(void)$/;"	f
+HardFault_Handler	stm32f4xx_it.c	/^void HardFault_Handler(void)$/;"	f
+MemManage_Handler	stm32f4xx_it.c	/^void MemManage_Handler(void)$/;"	f
+NMI_Handler	stm32f4xx_it.c	/^void NMI_Handler(void)$/;"	f
+PendSV_Handler	stm32f4xx_it.c	/^void PendSV_Handler(void)$/;"	f
+SVC_Handler	stm32f4xx_it.c	/^void SVC_Handler(void)$/;"	f
+SysTick_Handler	stm32f4xx_it.c	/^void SysTick_Handler(void)$/;"	f
+UsageFault_Handler	stm32f4xx_it.c	/^void UsageFault_Handler(void)$/;"	f
+__STM32F4xx_IT_H	stm32f4xx_it.h	30;"	d
+AHBPrescTable	system_stm32f4xx.c	/^  __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+PLL_M	system_stm32f4xx.c	123;"	d	file:
+PLL_M	system_stm32f4xx.c	125;"	d	file:
+PLL_N	system_stm32f4xx.c	127;"	d	file:
+PLL_P	system_stm32f4xx.c	130;"	d	file:
+PLL_Q	system_stm32f4xx.c	133;"	d	file:
+PLL_SOURCE_HSE	system_stm32f4xx.c	116;"	d	file:
+SetSysClock	system_stm32f4xx.c	/^static void SetSysClock(void)$/;"	f	file:
+SystemCoreClock	system_stm32f4xx.c	/^  uint32_t SystemCoreClock = 180000000;$/;"	v
+SystemCoreClockUpdate	system_stm32f4xx.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemInit	system_stm32f4xx.c	/^void SystemInit(void)$/;"	f
+SystemInit_ExtMemCtl	system_stm32f4xx.c	/^void SystemInit_ExtMemCtl(void)$/;"	f
+VECT_TAB_OFFSET	system_stm32f4xx.c	108;"	d	file:
